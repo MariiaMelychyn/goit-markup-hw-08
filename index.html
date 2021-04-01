@@ -50,11 +50,17 @@
             <section class="hero">
           <div class="section-hero">
             <h1 class="section-glava">Эффективные решения </br> для вашего бизнеса</h1>
-            <button class="button" type ="button" >Заказать услугу</button>
-            <div class="backdrop">
-
+            <button class="button" type ="button" data-modal-open >Заказать услугу</button>
+            <div class="backdrop is-hidden" data-modal>
+           <div class="modal">
+               <button data-modal-close class="modal-button">
+                   <svg width="18px" height="18px" aria-label="close" class="close">
+                       <use href="./images/symbol-defs.svg#vector7"></use>
+                   </svg>
+               </button>
+           </div>
             </div>
-        </div>
+        
             </section>
     
     
@@ -87,11 +93,24 @@
                  <h2 class="section-title">Чем мы занимаемся</h2>
                  
                  <ul class="picture-work">
-                  <li class="picture"><img src="./images/box1.jpg" alt="Чем мы занимаемся" width="370"/>
+                  <li class="picture">
+                      <div class="work-box">
+                          <p class="item-text section-text">Десктопные приложения</p>
+                      
+                    <img src="./images/box1.jpg" alt="Чем мы занимаемся" width="370"/>
+                </div>
                  </li>
-                 <li class="picture"><img src="./images/box2.jpg" alt="Чем мы занимаемся" width="370"/>
+                 <li class="picture">
+                    <div class="work-box">
+                        <p class="item-text section-text">Мобильные приложения</p> 
+                    <img src="./images/box2.jpg" alt="Чем мы занимаемся" width="370"/>
+                    </div>
                  </li>
-                 <li class="picture"><img src="./images/box3.jpg" alt="Чем мы занимаемся" width="370"/>
+                 <li class="picture">
+                    <div class="work-box">
+                        <p class="item-text section-text">Дизайнерские решения</p> 
+                    <img src="./images/box3.jpg" alt="Чем мы занимаемся" width="370"/>
+                    </div>
                  </li>
                  </ul>
                 </div>
@@ -359,6 +378,7 @@
       </div>
     
               </footer>
+             <script src="/js/modal.js" ></script>
   </body>
   </html>
                              
