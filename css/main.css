@@ -1363,3 +1363,7 @@ input[type='checkbox']{
 .windows:focus .modal-unit-icon{
   background-color: var(--accent-color);
 }
+.windows:focus + .modal-unit-icon,
+.windows:not(:placeholder-shown) + .modal-unit-icon{
+  fill: var(--accent-color);
+}
