@@ -1303,3 +1303,20 @@ input[type='checkbox']{
 .chek{
   margin-right: 7px;
 }
+.name-model{
+  position: relative;
+  margin-top: 4px;
+}
+.windows-name{
+  width: 100%;
+  height: 40px;
+  padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.contract{
+  color: var(--accent-color);
+}
