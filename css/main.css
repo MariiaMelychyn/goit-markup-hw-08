@@ -1242,6 +1242,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
  line-height: 1.15;
  margin: 0;
  margin-left: 41px;
+ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .windows-input:hover,
 .windows-input:focus{
@@ -1376,5 +1377,8 @@ color: var(--accent-color);
   fill: var(--accent-color);
 }
 .windows-input:hover ~ .modal-unit-icon{
+  fill: var(--accent-color);
+}
+.windows-input:focus ~ .modal-unit-icon{
   fill: var(--accent-color);
 }
