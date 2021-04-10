@@ -1385,6 +1385,7 @@ left: 8px;
 }
 .windows-input:hover ~ .modal-unit-icon{
   fill: var(--accent-color);
+  
 }
 .windows-input:focus ~ .modal-unit-icon{
   fill: var(--accent-color);
