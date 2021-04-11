@@ -1385,29 +1385,5 @@ left: 8px;
 .windows-input:focus ~ .modal-unit-icon{
   fill: var(--accent-color);
 }
-.checbox-icon-span{
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin-right: 7px;
-  background-color: inherit;
-  border: 2px solid #000;
-  border-radius: 4px;
-}
-.chek:checked + .checbox-icon-span{
-  background-image: url(../images/icon-check\(1\).svg);
-  background-size: contain;
-  background-origin: border-box;
-  border: 2px solid var(--accent-color);
-  background-color: var(--accent-color);
-}
-.chek{
-  position: absolute;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
- }
- 
+
+
