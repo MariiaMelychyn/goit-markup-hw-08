@@ -525,7 +525,7 @@
     }
     .button:hover,
     .button:focus{
-        background-color:var(--accent-color);
+        background-color: #188CE8;
         border: 1px solid var(--accent-color);
     }
     
@@ -1280,7 +1280,7 @@ cursor: pointer;
 }
 .arhiv:hover,
 .arhiv:focus{
-  background-color: var(--accent-color);
+  background-color: #188CE8;
 }
 .checkbox{
  
