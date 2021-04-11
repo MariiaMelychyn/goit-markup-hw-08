@@ -1425,4 +1425,17 @@ left: 8px;
   fill: var(--accent-color);
 }
 
-
+.windows-input:in-range{
+  border-color: var(--accent-color);
+}
+.windows-input:out-of-range {
+  border-color: #f44336;
+}
+.windows-input {
+  padding-left: 42px;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 16px;
+  outline: none;
+}
