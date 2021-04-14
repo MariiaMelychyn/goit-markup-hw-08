@@ -1,4 +1,11 @@
-body{
-    background-color: brown;
-    color: #212121;
-}
+@import './_utils/variables';
+@import './_components/global-style';
+@import './_components/page-about';
+@import './_components/page-clients';
+@import './_components/page-footer';
+@import './_components/page-header';
+@import './_components/page-hero';
+@import './_components/page-modal';
+@import './_components/page-team';
+@import './_components/page-work';
+

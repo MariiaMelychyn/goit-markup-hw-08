@@ -1,0 +1,37 @@
+.web{
+    width: 1200px;
+    padding-left: 15px;
+    color: $accent-color;
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  .studio{
+    width: 1200px;
+    padding-right: 15px;
+    color: $title-color;
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
+     } 
+
+     .auth-nav .telephone{
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+        stroke: $text-color;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     }
+     .auth-nav .telephone-one{
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+        stroke: $text-color;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     }
+     .auth-nav li:nth-child(2n){
+        margin-right: 0;
+       }
+
+      
+       
