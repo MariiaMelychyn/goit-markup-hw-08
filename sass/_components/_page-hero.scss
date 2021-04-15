@@ -1,19 +1,13 @@
+.hero{
+    width: 1200px;
+}
+
+
 .section-hero{
     padding-top: inherit;
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
    }
-   .hero{  
-    max-width: 1600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 1px solid black;
-   background-color: #757575;
-    background-image: linear-gradient( to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),url(../images/Img\(24\).png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-   }
+
    
