@@ -115,3 +115,48 @@ section{
          border: 1px solid $accent-color;
        }
        }
+       textarea{
+        resize: none;
+        width: 448px;
+        height: 120px;
+        margin-left: 40px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+      box-sizing: border-box;
+      border-radius: 4px;
+      transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus{
+        border: 1px solid var(--accent-color);
+      }
+      }
+      .arhiv{
+        color: var(--primary-white-color);
+        background: #2196F3;
+        padding: 10px 56px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px ;
+      border-color: var(--accent-color);
+      width: 200px;
+      height: 50px;
+      font-size: 16px;
+      line-height: 1.88;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
+      cursor: pointer;
+      &:hover,
+      &:focus{
+        background-color: #188CE8;
+      }
+      }
+      .checkbox{
+        font-family: sans-serif;
+        margin-left: 52px;
+        margin-bottom: 20px;
+        cursor: pointer;
+       
+      }
+      .arhiv-button{
+        margin-left: 164px;
+        margin-bottom: 40px;
+      }

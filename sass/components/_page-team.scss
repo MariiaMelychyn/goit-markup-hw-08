@@ -60,9 +60,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: $primary-text-color;
-  
  }
- 
+ .item-punctuality::before{
+    background-image: url('../images/icons.svg/clock\(1\).svg');
+ } 
 
  .item-plan::before{
     content: "";
@@ -74,7 +75,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: $primary-text-color;
-   
+ }
+ .item-plan::before{
+    background-image: url('../images/icons.svg/diagram\(1\).svg');
  }
  .item-plan{
     margin-right: 30px;
@@ -89,7 +92,9 @@
       background-repeat: no-repeat;
       background-position: center;
       background-color: $primary-text-color;
- 
+   }
+   .item-technology::before{
+    background-image: url('../images/icons.svg/astronaut\(1\).svg')
    }
    .item-technology{
     margin-right: 30px;
