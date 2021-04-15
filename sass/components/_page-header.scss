@@ -1,0 +1,104 @@
+
+.web{
+    width: 1200px;
+    padding-left: 15px;
+    color: $accent-color;
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  .studio{
+    width: 1200px;
+    padding-right: 15px;
+    color: $title-text-color;
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
+     } 
+ .auth-nav .telephone{
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+        stroke: $text-color;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     }
+ .auth-nav .telephone-one{
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+        stroke: $text-color;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     }
+.auth-nav li:nth-child(2n){
+        margin-right: 0;
+       }
+.link{   
+        color: $text-color;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+      color: $accent-color;
+    }
+}
+.link-tel{
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   color: $text-color;
+
+   
+    &:hover,
+    &:focus{
+     color: $accent-color;
+    }
+  }
+  .link:hover .telephone,
+  .link:focus .telephone{
+    stroke: $accent-color;
+  }
+  .link-tel:hover .telephone-one,
+  .link-tel:focus .telephone-one{
+    stroke: $accent-color;
+  }
+
+  .link{
+    color: $text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
+   .auth-nav .link + .link{
+    margin-left: 50px;
+    }
+    .auth-nav {
+    display: flex;
+    margin-left: auto;
+    }
+    .auth-nav li{
+    
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px; 
+ }
+ .link-tel{
+    color: $text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
+   .auth-nav .link-tel + .link-tel{
+    margin-left: 50px;
+    }
+    .auth-nav {
+    display: flex;
+    margin-left: auto;
+    }
+    .auth-nav li{
+    margin-right: 50px;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px; 
+ }

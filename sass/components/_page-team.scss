@@ -1,0 +1,26 @@
+.features{
+    display: flex;  
+   
+ }
+ .features li:nth-child(4n){
+  margin-right: 30px;
+ }
+
+ .features__features-title{
+    margin-top: 0;
+    margin-bottom: 10px;
+ color: var(--title-text-color) ;
+ margin-top: 0;
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 1.14;
+ text-transform: uppercase;
+ }
+ .features__features-list{
+ color: var(--text-color);
+ width: 270px;
+ margin-top: 0;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 2;
+ }

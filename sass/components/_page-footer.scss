@@ -1,0 +1,17 @@
+.link-footer{
+      
+    color: $text-color;
+    }
+    
+    .link-footer{
+    
+     color: $text-color;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     text-decoration: none;
+    }
+    
+       .auth-nav .link-footer + .link-footer{
+       margin-left: 50px;
+       }
