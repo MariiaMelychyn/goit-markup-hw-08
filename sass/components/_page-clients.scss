@@ -41,28 +41,28 @@
     justify-content: center;
     align-items: center;
     width: 170px;
-   height: 90px;
-   margin-right: 30px;
-   border: 1px solid #AFB1B8;
-   box-sizing: border-box;
-   cursor: pointer;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    height: 90px;
+    margin-right: 30px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
      fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
      &:hover,
-  &:focus{
+    &:focus{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 170px;
-   height: 90px;
-   margin-right: 30px;
-   border: 1px solid $accent-color;
-   box-sizing: border-box;
-   cursor: pointer;
+    height: 90px;
+    margin-right: 30px;
+    border: 1px solid $accent-color;
+    box-sizing: border-box;
+    cursor: pointer;
   
-  }
+   }
   }
   .link-client:hover .batton-client,
   .link-client:focus .batton-client{
@@ -115,7 +115,6 @@
     fill: #AFB1B8;
   }
   
-  
   .social{
     display: block;
     justify-content: center;
@@ -126,7 +125,7 @@
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
-  &:focus{
+    &:focus{
     background-color: $accent-color;
   }
   }
