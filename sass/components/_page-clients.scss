@@ -49,18 +49,9 @@
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
      fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .link-client:hover .batton-client,
-  .link-client:focus .batton-client{
-    fill: $accent-color;
-  }
-  .link-client:hover .batton-client,
-  .link-client:focus .batton-client{
-    border: $accent-color;
-    fill: $accent-color;
-  }
-  .link-client:hover,
-  .link-client:focus{
+
+     &:hover,
+  &:focus{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +63,17 @@
    cursor: pointer;
   
   }
+  }
+  .link-client:hover .batton-client,
+  .link-client:focus .batton-client{
+    fill: $accent-color;
+  }
+  .link-client:hover .batton-client,
+  .link-client:focus .batton-client{
+    border: $accent-color;
+    fill: $accent-color;
+  }
+  
    
   .regular-customers li:nth-child(6n){
     margin-right: 0;
@@ -113,10 +115,7 @@
     fill: #AFB1B8;
   }
   
-  .social:hover,
-  .social:focus{
-    background-color: $accent-color;
-  }
+  
   .social{
     display: block;
     justify-content: center;
@@ -125,5 +124,10 @@
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+  &:focus{
+    background-color: $accent-color;
+  }
   }
   

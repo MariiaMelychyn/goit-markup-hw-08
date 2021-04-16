@@ -429,15 +429,6 @@ p {
   background: rgba(0, 0, 0, 0.2);
 }
 
-.sulka {
-  color: #ffffff;
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.17;
-}
-
 .tabl {
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-sizing: border-box;
@@ -790,19 +781,7 @@ placeholder {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-client:hover .batton-client,
-.link-client:focus .batton-client {
-  fill: #2196F3;
-}
-
-.link-client:hover .batton-client,
-.link-client:focus .batton-client {
-  border: #2196F3;
-  fill: #2196F3;
-}
-
-.link-client:hover,
-.link-client:focus {
+.link-client:hover, .link-client:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -819,6 +798,17 @@ placeholder {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   cursor: pointer;
+}
+
+.link-client:hover .batton-client,
+.link-client:focus .batton-client {
+  fill: #2196F3;
+}
+
+.link-client:hover .batton-client,
+.link-client:focus .batton-client {
+  border: #2196F3;
+  fill: #2196F3;
 }
 
 .regular-customers li:nth-child(6n) {
@@ -867,11 +857,6 @@ placeholder {
   fill: #AFB1B8;
 }
 
-.social:hover,
-.social:focus {
-  background-color: #2196F3;
-}
-
 .social {
   display: block;
   -webkit-box-pack: center;
@@ -882,6 +867,10 @@ placeholder {
   border-radius: 50%;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social:hover, .social:focus {
+  background-color: #2196F3;
 }
 
 .link-footer {
@@ -935,7 +924,7 @@ placeholder {
 
 .web-footer {
   width: 1200px;
-  color: var(--accent-color);
+  color: #2196F3;
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
@@ -992,11 +981,12 @@ placeholder {
 }
 
 .connect {
+  text-transform: uppercase;
   color: #ffffff;
   margin-top: 0;
   margin-bottom: 20px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1px;
   line-height: 1.17;
 }
 
@@ -1070,6 +1060,16 @@ placeholder {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+
+.sulka {
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
 }
 
 .web {
@@ -1274,6 +1274,13 @@ placeholder {
   line-height: 1.87;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-portfolio:hover {
+  color: #ffffff;
+  background-color: #2196F3;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .button-port:hover {
