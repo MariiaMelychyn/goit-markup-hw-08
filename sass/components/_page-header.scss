@@ -15,24 +15,8 @@
     font-size: 26px;
     line-height: 1.19;
      } 
- .auth-nav .telephone{
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    stroke: $text-color;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-     }
- .auth-nav .telephone-one{
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    stroke: $text-color;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-     }
-.auth-nav li:nth-child(2n){
-    margin-right: 0;
-       }
-.link{   
+ 
+.auth-nav__link{   
     color: $text-color;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -41,7 +25,7 @@
       color: $accent-color;
     }
 }
-.link-tel{
+.auth-nav__link-tel{
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    color: $text-color;
 
@@ -50,38 +34,28 @@
     &:focus{
     color: $accent-color;
     }
-  }
-  .link:hover .telephone,
-  .link:focus .telephone{
+    &:hover .auth-nav__telephone-one,
+    &:focus .auth-nav__telephone-one{
     stroke: $accent-color;
   }
-  .link-tel:hover .telephone-one,
-  .link-tel:focus .telephone-one{
-    stroke: $accent-color;
   }
+ 
+  .auth-nav__link{
+    color: $text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .link{
-    color: $text-color;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover .auth-nav__telephone,
+    &:focus .auth-nav__telephone{
+    stroke: $accent-color;
+  }
    }
-   .auth-nav .link + .link{
-    margin-left: 50px;
-    }
-    .auth-nav {
-    display: flex;
-    margin-left: auto;
-    }
-    .auth-nav li{
+   
     
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px; 
- }
- .link-tel{
+   .auth-nav__link-tel{
     color: $text-color;
     font-weight: 500;
     font-size: 14px;
@@ -89,16 +63,46 @@
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
-   .auth-nav .link-tel + .link-tel{
-    margin-left: 50px;
-    }
+   
     .auth-nav {
     display: flex;
     margin-left: auto;
+    & li{
+      margin-right: 50px;
+      display: block;
+      padding-top: 32px;
+      padding-bottom: 32px; 
+   }
+    & .auth-nav__link-tel + .auth-nav__link-tel{
+    margin-left: 50px;
     }
-    .auth-nav li{
-    margin-right: 50px;
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px; 
- }
+    & li{
+      display: block;
+      padding-top: 32px;
+      padding-bottom: 32px; 
+   }
+   & .auth-nav__link-tel + .auth-nav__link-tel{
+    margin-left: 50px;
+    }
+    & .auth-nav__telephone{
+      width: 16px;
+      height: 12px;
+      margin-right: 10px;
+      stroke: $text-color;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+    & .auth-nav__telephone-one{
+      width: 16px;
+      height: 12px;
+      margin-right: 10px;
+      stroke: $text-color;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       }
+    & li:nth-child(2n){
+      margin-right: 0;
+         }
+    & .link-footer + .link-footer{
+          margin-left: 50px;
+          }
+    }
+    

@@ -11,9 +11,7 @@
  text-decoration: none;
 }
     
- .auth-nav .link-footer + .link-footer{
- margin-left: 50px;
- }
+ 
  .adress{
   color: $primary-white-color;
   margin-top: 0;
@@ -39,10 +37,7 @@
    line-height: 1.19;
    }
    
-   .portfolio-element:hover,
-   .portfolio-element:focus{
-     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-   }
+ 
    .web-footer{
      width: 1200px;
      color: $accent-color;
@@ -101,6 +96,10 @@
      .container-new{
     align-items: center;
     margin-right: 70px;
+    & .container-too{
+      display: flex;
+      justify-content: flex-start;
+        }
       }
 
     .social-list-footer{
@@ -142,13 +141,10 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus{
-    background-color: var(--accent-color);
+    background-color: $accent-color;
  }
       }
-  .container-new .container-too{
-    display: flex;
-    justify-content: flex-start;
-      }
+  
   .sulka{
   text-transform: uppercase;
   color: $primary-white-color;

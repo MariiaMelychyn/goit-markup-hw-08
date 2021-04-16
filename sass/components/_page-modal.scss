@@ -1,4 +1,4 @@
-.Feat-ess-title{
+.Feat-ess__title{
    color: $title-text-color ;
    margin-top: 0;
    margin-bottom: 10px;
@@ -6,7 +6,7 @@
    font-size: 16px;
    line-height: 1.18;
  }
- .Feat-es-list{
+ .Feat-es__list{
     color: $text-color;
     margin-top: 0;
     margin-bottom: 30px;
@@ -38,11 +38,11 @@
   }
   .feat-es{
     display: flex;
+  & li:nth-child(4n){
+    margin-right: 0;
+ }
   }
-  
-  .feat-es li:nth-child(4n){
-     margin-right: 0;
-  }
+ 
   .comanda{
     width: 270px;
     text-align: center;

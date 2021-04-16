@@ -1,11 +1,15 @@
 .features{
     display: flex;  
+& li:nth-child(4n){
+      margin-right: 30px;
+     }
+& li:nth-child(4n){
+      margin-right: 0;
+       }
  }
- .features li:nth-child(4n){
-  margin-right: 30px;
- }
+ 
 
- .features-title{
+ .features__title{
  margin-top: 0;
  margin-bottom: 10px;
  color: $title-text-color;
@@ -15,7 +19,10 @@
  line-height: 1.14;
  text-transform: uppercase;
  }
- .features-list{
+ .features__title{
+   margin-top: 30px;
+     }
+ .features__list{
  color: $text-color;
  width: 270px;
  margin-top: 0;
@@ -23,78 +30,71 @@
  font-size: 14px;
  line-height: 2;
  }
- .item-warning{
+ .features__item-warning{
  margin-right: 30px;
-   
+ &::before{
+   content: "";
+   display:inline-block;
+   width: 270px;
+   content: "";
+   display: block;
+   height: 120px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: $primary-text-color;  
    }
-.features-title{
- margin-top: 30px;
+ &::before{
+   background-image: url('../images/icons.svg/antenna1.svg');
+   }   
    }
-.item-warning::before{
- content: "";
- display:inline-block;
- width: 270px;
- content: "";
- display: block;
- height: 120px;
- background-repeat: no-repeat;
- background-position: center;
- background-color: $primary-text-color;  
- }
- .item-warning::before{
- background-image: url('../images/icons.svg/antenna1.svg');
- }
- .item-punctuality{
- margin-right: 30px;
-   
-   }
-.item-punctuality::before{
-content: "";
-width: 270px;
-display: block;
-height: 120px;
-    
-background-repeat: no-repeat;
-background-position: center;
-background-color: $primary-text-color;
- }
- .item-punctuality::before{
-background-image: url('../images/icons.svg/clock1.svg');
- } 
 
- .item-plan::before{
-content: "";
-width: 270px;
-    
-display: block;
-height: 120px;
-    
-background-repeat: no-repeat;
-background-position: center;
-background-color: $primary-text-color;
- }
- .item-plan::before{
-background-image: url('../images/icons.svg/diagram1.svg');
- }
- .item-plan{
+
+ .features__item-punctuality{
+ margin-right: 30px;
+ &::before{
+   content: "";
+   width: 270px;
+   display: block;
+   height: 120px;
+       
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: $primary-text-color;
+    }
+&::before{
+   background-image: url('../images/icons.svg/clock1.svg');
+    } 
+   }
+
+ .features__item-plan{
 margin-right: 30px;
+&::before{
+   content: "";
+   width: 270px;      
+   display: block;
+   height: 120px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: $primary-text-color;
+    }
+&::before{
+   background-image: url('../images/icons.svg/diagram1.svg');
+    }
     
    }
-.item-technology::before{
-content: "";
-width: 270px;
-display: block;
-height: 120px;
-background-repeat: no-repeat;
-background-position: center;
-background-color: $primary-text-color;
-}
-.item-technology::before{
-background-image: url('../images/icons.svg/astronaut1.svg')
-   }
-.item-technology{
+
+.features__item-technology{
 margin-right: 30px;
+&::before{
+   content: "";
+   width: 270px;
+   display: block;
+   height: 120px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: $primary-text-color;
+   }
+&::before{
+   background-image: url('../images/icons.svg/astronaut1.svg')
+      }
 }
-.features li:nth-child(4n){
-margin-right: 0;
- }
