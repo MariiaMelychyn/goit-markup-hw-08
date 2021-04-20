@@ -2,18 +2,6 @@ body{
     color: $primary-white-color;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-
-    @media  screen and (min-width:480px) {
-        width:480px
-    }
-
-    @media screen and (min-width:780) {
-        width: 780px;
-    }
-
-    @media  screen and (min-width:1200px) {
-        width: 1200px;
-    }
     }
 
 ul,

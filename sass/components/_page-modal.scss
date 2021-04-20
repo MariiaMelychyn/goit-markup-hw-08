@@ -37,7 +37,24 @@
    padding: 0;
   }
   .feat-es{
-    display: flex;
+    @media screen and (min-width: 480px) {
+      .feat-es {
+        max-width: 480px;
+      }
+    }
+    
+    @media screen and (min-width: 768px) {
+      .feat-es {
+        max-width: 768px;
+      }
+    }
+    
+    @media screen and (min-width: 1200px) {
+      .feat-es {
+        max-width: 1200px;
+        display: flex;
+      }
+    }
   & li:nth-child(4n){
     margin-right: 0;
  }

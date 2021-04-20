@@ -29,7 +29,7 @@
     line-height: 2;
  }
  .studio-footer{
-    width: 1200px;
+    
    padding-right: 15px;
    color: $primary-white-color;  
    font-family: Raleway, cursive;
@@ -39,7 +39,7 @@
    
  
    .web-footer{
-     width: 1200px;
+     
      color: $accent-color;
      font-family: Raleway, cursive;
      font-size: 26px;
@@ -53,7 +53,7 @@
      background-color: #2F303A;
      }
      .new-footer{
-     width: 1200px;
+    
      padding-left: 15px;
      padding-right: 15px;
      align-items: center;
@@ -61,7 +61,7 @@
      }
 
      .container-footer{
-     width: 1200px;
+    
      padding-right: 15px;
      margin: 0;
      }
@@ -70,14 +70,32 @@
      flex-wrap: wrap;
      padding: 20px 24px;
      }
-
-     .footer{
-     display: flex;
-     align-items: baseline;
+     
+     
+     @media screen and (min-width: 480px) {
+      .footer {
+        max-width: 480px;
       }
+    }
+    
+    @media screen and (min-width: 768px) {
+      .footer {
+        max-width: 768px;
+      }
+    }
+    
+    @media screen and (min-width: 1200px) {
+      .footer {
+        max-width: 1200px;
+        display: flex;
+     align-items: baseline;
+     
+      }
+    }
+      
      .general{
-     display: flex;
-     width: 1200px;
+     
+    
      padding-left: 15px;
      padding-right: 15px;
      margin: auto;
