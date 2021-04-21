@@ -915,7 +915,6 @@ placeholder {
 }
 
 .web {
-  width: 1200px;
   padding-left: 15px;
   color: #2196F3;
   font-family: Raleway, cursive;
@@ -924,7 +923,6 @@ placeholder {
 }
 
 .studio {
-  width: 1200px;
   padding-right: 15px;
   color: #212121;
   font-family: Raleway, cursive;
@@ -1340,7 +1338,6 @@ textarea:hover, textarea:focus {
 }
 
 .container-studio {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -1348,7 +1345,6 @@ textarea:hover, textarea:focus {
 }
 
 .container-studio-comanda {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
