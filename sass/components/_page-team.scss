@@ -1,2 +1,140 @@
 
+  .feat-es {
+    max-width: 320px;
+  }
   
+  @media screen and (min-width: 480px) {
+    .feat-es {
+      max-width: 480px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .feat-es {
+      max-width: 768px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .feat-es {
+      max-width: 1200px;
+      display: flex;
+      & li:nth-child(4n){
+        margin-right: 0;
+     }
+    }
+  }
+.comanda{
+width: 270px;
+text-align: center;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px;
+background: $primary-white-color;
+border-radius: 0px 0px 4px 4px;
+margin: 0;
+margin-right: 30px;
+padding: 0;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+ }
+.photo-studio{
+ width: 270px;
+ margin-top: 0;
+ margin-bottom: 30px;
+}
+.Feat-ess__title{
+  color: $title-text-color ;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.Feat-es__list{
+   color: $text-color;
+   margin-top: 0;
+   margin-bottom: 30px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.18;
+   margin-bottom: 16px;
+}
+
+  .container-studio {
+    max-width: 320px;
+  }
+  
+  @media screen and (min-width: 480px) {
+    .container-studio {
+      max-width: 480px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container-studio {
+      max-width: 768px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .container-studio {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+     }
+    }
+ .social-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+ .social-list__social-item{
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  padding: 0;
+  border: none;
+  width: 44px;
+  height: 44px;
+  color: $title-text-color;
+  border-radius: 50%;
+  background-color: $primary-white-color;
+  background-position: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+.social-one{
+ margin-top: 12px;
+ fill: #AFB1B8;
+ }
+    
+.social{
+display: block;
+justify-content: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+&:hover,
+&:focus{
+background-color: $accent-color;
+}
+ &:hover .social-one,
+ &:focus .social-one{
+ fill: $primary-white-color;
+    }
+    }
+    
+    
+    @media screen and (min-width: 480px) {
+      .comanda {
+        max-width: 480px;
+        margin-bottom: 30px;
+      }
+    }
+    
+   
