@@ -1276,30 +1276,6 @@ textarea:hover, textarea:focus {
 
 .button-portfolio {
   max-width: 320px;
-}
-
-@media screen and (min-width: 480px) {
-  .button-portfolio {
-    max-width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .button-portfolio {
-    max-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .button-portfolio {
-    max-width: 1200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-.button-portfolio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1323,6 +1299,27 @@ textarea:hover, textarea:focus {
 
 .button-portfolio .button-port + .button-port {
   margin-left: 8px;
+}
+
+@media screen and (min-width: 480px) {
+  .button-portfolio .button-portfolio {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button-portfolio .button-portfolio {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .button-portfolio .button-portfolio {
+    max-width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .button-port:hover {
@@ -1505,6 +1502,31 @@ p {
 .project-thumb:hover .project-overlay {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
+}
+
+.portfolio__element {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 370px;
+  border: 1px solid #EEEEEE;
+  background: #FFFFFF;
+  margin-top: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio__element:hover, .portfolio__element:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio__element:hover, .portfolio__element:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .feat-es {

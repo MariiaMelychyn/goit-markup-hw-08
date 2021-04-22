@@ -3,6 +3,7 @@
   max-width: 320px;
 }
 
+
 @media screen and (min-width: 480px) {
   .container{
     max-width: 480px;
@@ -23,8 +24,10 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    
   }
 }
+
 .site-nav{
   display: flex;
   margin-left: 93px;
