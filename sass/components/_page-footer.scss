@@ -5,7 +5,17 @@
 @media screen and (min-width: 480px) {
   .general {
     max-width: 480px;
-    align-items: center;
+    width: 100%;
+    .container-new{
+      width: 100%;
+      align-items: center;
+    }
+    .container-too{
+      width: 100%;
+    }
+    .element{
+      width: 100%;
+    }
   }
 }
 

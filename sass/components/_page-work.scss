@@ -5,6 +5,17 @@
 @media screen and (min-width: 480px) {
   .picture-work {
     max-width: 480px;
+
+    .picture{
+      margin-bottom: 30px;
+      width: 100%;
+    }
+    .picture__work-box{
+      width: 100%;
+    }
+    .image{
+      width: 100%;
+    }
   }
 }
 
