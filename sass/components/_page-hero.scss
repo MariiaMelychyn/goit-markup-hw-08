@@ -42,9 +42,34 @@
   text-align: center;
   color: $primary-white-color;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  }
+  
+  
+  @media screen and (min-width: 480px) {
+    .hero__section-glava {
+  max-width: 480px;
+  font-size: 26px;
+  line-height: 1.62;
   text-transform: uppercase;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .hero__section-glava {
+      max-width: 768px;
+      font-size: 26px;
+      line-height: 1.62;
+      text-transform: uppercase;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .hero__section-glava {
+      max-width: 1200px;
+      font-size: 44px;
+      line-height: 1.36;
+      text-transform: uppercase;
+    }
   }
   .hero__button{
   border-radius: 4px;

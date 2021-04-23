@@ -1,11 +1,17 @@
 .picture-work {
   max-width: 320px;
 }
-
+@media screen and (min-width: 480px){
+.section-title{
+  display: none;
+}
+}
 @media screen and (min-width: 480px) {
   .picture-work {
     max-width: 480px;
-
+      display: none;
+      
+  }
     .picture{
       margin-bottom: 30px;
       width: 100%;
@@ -17,11 +23,13 @@
       width: 100%;
     }
   }
-}
+ 
 
 @media screen and (min-width: 768px) {
   .picture-work {
     max-width: 768px;
+   
+    display: none;
   }
 }
 
@@ -53,14 +61,7 @@
 
 @media screen and (min-width: 768px) {
   .section-title {
-  max-width: 768px;
-  color: $title-text-color;
-  margin-top: 0;
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
+  display: block;
   }
 }
 
