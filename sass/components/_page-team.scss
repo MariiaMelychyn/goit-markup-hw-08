@@ -1,44 +1,44 @@
 
-  .feat-es {
-    max-width: 320px;
+  .feat-es{
+    width: 320px;
   }
   
   @media screen and (min-width: 480px) {
     .feat-es {
       max-width: 480px;
       margin-bottom: 30px;
-      .comanda{
-        width: 100%;
-
-      }
+     .comanda{
+       width: 450px;
+     }
     }
   }
+  
   
   @media screen and (min-width: 768px) {
     .feat-es {
       max-width: 768px;
-      flex-basis: calc((100% - 2 * 30px)/2);
-      flex-wrap: wrap;
-      .comanda{
-        width: 100%;
-        margin-left: 30px;
-        flex-basis: calc((100% - 2 * 30px)/2);
-        
-      }
+     display: flex;
     }
-  }
+      .comanda{
+        flex-basis: calc(100% / 2);
+        flex-wrap: wrap-reverse;
+      
+    }
+    }
+  
   
   @media screen and (min-width: 1200px) {
     .feat-es {
       max-width: 1200px;
-     
       display: flex;
+    flex-wrap: inherit;
+    margin-right: 0;
+    padding-right: 0;
       & li:nth-child(4n){
         margin-right: 0;
         .comanda{
-          width: 100%;
-          flex-basis: calc((100% - 4 * 30px)/4);
-          
+          width: 1200px;
+          display: flex;
         }
      }
     }
@@ -174,8 +174,9 @@ background-color: $accent-color;
     }
    .comanda{
     @media screen and (min-width: 768px) {
-        width: 354px;
+        width: 768px;
         flex-basis: calc((100% - 2 * 30px)/2);
+        flex-wrap: wrap;
     }
     
     @media screen and (min-width: 1200px) {
@@ -183,3 +184,104 @@ background-color: $accent-color;
     flex-basis: calc((100% - 4 * 30px)/4);
    }
   }
+
+.feat-es{
+
+  @media screen and (min-width: 480px) {
+    .comanda-tabl {
+      max-width: 480px;
+      color: $title-text-color;
+      margin-top: 0;
+      margin-bottom: 50px;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1.17;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container-studio {
+      max-width: 768px;
+      color: $title-text-color;
+      margin-top: 0;
+      margin-bottom: 50px;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1.17;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .container-studio {
+  max-width: 1200px;
+  display: flex;
+  margin-right: 30p;
+    }
+  }
+}
+
+
+@media screen and (min-width: 480px) {
+  .container-studio {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-studio {
+    max-width: 768px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-studio {
+max-width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .class-title {
+    max-width: 480px;
+    color: $title-text-color;
+margin-top: 0;
+margin-bottom: 50px;
+font-weight: 700;
+font-size: 28px;
+line-height: 1.17;
+text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .class-title {
+    max-width: 768px;
+    color: $title-text-color;
+margin-top: 0;
+margin-bottom: 50px;
+font-weight: 700;
+font-size: 28px;
+line-height: 1.17;
+text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .class-title {
+max-width: 1200px;
+color: $title-text-color;
+margin-top: 0;
+margin-bottom: 50px;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+  }
+}

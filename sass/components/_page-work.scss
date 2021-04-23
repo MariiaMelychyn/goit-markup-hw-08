@@ -2,10 +2,10 @@
   max-width: 320px;
 }
 @media screen and (min-width: 480px){
-.section-title{
-  display: none;
-}
-}
+  .section-title{
+    display: none;
+  }
+  }
 @media screen and (min-width: 480px) {
   .picture-work {
     max-width: 480px;
@@ -39,6 +39,9 @@
     display: flex;
     padding: 0;
     margin: 0;
+    li:nth-child(3n){
+      margin-right: 0;
+   }
   }
 }
 
@@ -59,11 +62,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .section-title {
-  display: block;
-  }
-}
+
 
 @media screen and (min-width: 1200px) {
   .section-title {

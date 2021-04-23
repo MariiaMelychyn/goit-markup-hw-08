@@ -1,10 +1,13 @@
 .regular-customers {
   max-width: 320px;
-}
+
 
 @media screen and (min-width: 480px) {
   .regular-customers {
     max-width: 480px;
+  }
+  .client{
+    flex-basis: calc(100% / 2);
   }
 }
 
@@ -22,6 +25,7 @@
       margin-right: 0;
     }
   }
+}
 }
 .client__link{
   border-radius: 4px;
