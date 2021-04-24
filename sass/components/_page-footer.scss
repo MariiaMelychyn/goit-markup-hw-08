@@ -7,7 +7,7 @@
     max-width: 480px;
     width: 100%;
     text-align: center;
-    padding-bottom: 60px;
+   
     .container-new{
       width: 100%;
       align-items: center;
@@ -19,7 +19,16 @@
     }
     .element{
       padding-bottom: 60px;
+      margin-right: 0;
       }
+    }
+  }
+  @media screen and (min-width: 480px){
+    .container-too{
+      max-width: 480px;
+      width: 100%;
+      padding-bottom: 60px;
+      text-align: center;
     }
   }
 
@@ -42,14 +51,21 @@
         }
       }
     }
-
-
-@media screen and (min-width: 768px) {
-  .general {
-    max-width: 50%;
-
+    @media screen and (min-width: 768px){
+    .contactu-footer{
+     display: flex;
+     flex-wrap: wrap;
+     width: 768px;
+     .general {
+    width: 50%;
+    }
+    .container-too{
+width: 50%;
+padding-right: inherit;
+    }
+    }
   }
-}
+
 
 @media screen and (min-width: 1200px) {
   .general {
@@ -231,6 +247,9 @@ line-height: 1.19;
     }
     @media screen and (min-width: 768px) {
         max-width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 76px;
         width: 50%;
     }
     @media screen and (min-width: 1200px) {
@@ -266,7 +285,7 @@ padding-left: 50px;
 
   @media screen and (min-width: 480px){
     .sulka{
-padding-right: 50px;
+padding-right: 10%;
     }
   }
   @media screen and (min-width: 768px){
@@ -275,3 +294,8 @@ padding-right: 50px;
 text-align: center;
     }
   }
+
+.element{
+  margin-left: 0;
+}
+  

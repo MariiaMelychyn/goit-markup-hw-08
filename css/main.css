@@ -281,12 +281,6 @@ ul {
   padding-bottom: 94px;
 }
 
-.section-comanda {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: #F5F4FA;
-}
-
 .work-section {
   padding-bottom: 0px;
 }
@@ -506,7 +500,6 @@ ul {
     max-width: 480px;
     width: 100%;
     text-align: center;
-    padding-bottom: 60px;
   }
   .general .container-new {
     width: 100%;
@@ -521,6 +514,16 @@ ul {
   }
   .general .element {
     padding-bottom: 60px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .container-too {
+    max-width: 480px;
+    width: 100%;
+    padding-bottom: 60px;
+    text-align: center;
   }
 }
 
@@ -547,8 +550,20 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .general {
-    max-width: 50%;
+  .contactu-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 768px;
+  }
+  .contactu-footer .general {
+    width: 50%;
+  }
+  .contactu-footer .container-too {
+    width: 50%;
+    padding-right: inherit;
   }
 }
 
@@ -776,6 +791,12 @@ ul {
 @media screen and (min-width: 768px) {
   .footer-class {
     max-width: 768px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-right: 76px;
     width: 50%;
   }
 }
@@ -818,7 +839,7 @@ ul {
 
 @media screen and (min-width: 480px) {
   .sulka {
-    padding-right: 50px;
+    padding-right: 10%;
   }
 }
 
@@ -826,6 +847,10 @@ ul {
   .sulka {
     text-align: center;
   }
+}
+
+.element {
+  margin-left: 0;
 }
 
 .container {
@@ -1313,15 +1338,6 @@ placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-}
-
-.element {
-  margin-left: 93px;
-}
-
-.element:last-child {
-  -ms-flex-preferred-size: calc(50%-15px);
-      flex-basis: calc(50%-15px);
 }
 
 .chek {
