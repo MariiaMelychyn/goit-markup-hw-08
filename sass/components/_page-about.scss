@@ -75,14 +75,7 @@
     .features__title{
       margin-top: 30px;
         }
-    .features__list{
-    color: $text-color;
-    width: 270px;
-    margin-top: 0;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 2;
-    }
+    
     .features__item-warning{
       margin-right: 30px;
       &::before{
@@ -113,6 +106,30 @@
         .features__item-warning::before {
           width: 270px;
         display: inline-block;
+        }
+      }
+      .features__list{
+        color: $text-color;
+        
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        }
+      @media screen and (min-width: 480px) {
+        .features__list {
+          width: 450px;
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .features__list {
+          width: 270px;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        .features__list {
+          width: 270px;
+          text-align: justify;
         }
       }
 

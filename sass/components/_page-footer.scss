@@ -6,22 +6,48 @@
   .general {
     max-width: 480px;
     width: 100%;
+    text-align: center;
+    padding-bottom: 60px;
     .container-new{
       width: 100%;
       align-items: center;
+      padding-bottom: 60px;
     }
     .container-too{
       width: 100%;
+      padding-bottom: 60px;
     }
     .element{
-      width: 100%;
+      padding-bottom: 60px;
+      }
     }
   }
-}
+
+  @media screen and (min-width: 768px) {
+    .general {
+      max-width: 768px;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 60px;
+      .container-new{
+        align-items: center;
+        padding-bottom: 60px;
+      }
+      .container-too{
+        width: 50%;
+        padding-bottom: 60px;
+      }
+      .element{
+        padding-bottom: 60px;
+        }
+      }
+    }
+
 
 @media screen and (min-width: 768px) {
   .general {
-    max-width: 768px;
+    max-width: 50%;
+
   }
 }
 
@@ -194,4 +220,58 @@ line-height: 1.19;
      }
   .container-too{
     margin-right: 93px;
+  }
+
+  .footer-class{
+    @media screen and (min-width: 480px) {
+        max-width: 480px;
+        flex-wrap: wrap;
+        align-items: center;
+      
+    }
+    @media screen and (min-width: 768px) {
+        max-width: 768px;
+        width: 50%;
+    }
+    @media screen and (min-width: 1200px) {
+        max-width: 1200px;
+    }
+  }
+
+  @media screen and (min-width: 480px){
+    .association{
+flex-wrap: wrap;
+padding-bottom: 20px;
+    }
+  }
+  @media screen and (min-width: 768px){
+    .association{
+flex-wrap: wrap;
+padding-bottom: 20px;
+    }
+  }
+
+  @media screen and (min-width: 480px){
+    .footer-button{
+padding-top: 20px;
+padding-left: 50px;
+    }
+  }
+  @media screen and (min-width: 1200px){
+    .footer-button{
+padding-top: 20px;
+padding-left: 50px;
+    }
+  }
+
+  @media screen and (min-width: 480px){
+    .sulka{
+padding-right: 50px;
+    }
+  }
+  @media screen and (min-width: 768px){
+    .sulka{
+
+text-align: center;
+    }
   }
