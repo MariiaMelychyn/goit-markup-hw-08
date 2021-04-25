@@ -15,8 +15,24 @@
 <body>
      <header class="page-header">
         <div class="container">
-         <nav>
-            <span><span class="web">Web</span><span class="studio">Studio</span></span>
+         <nav class="nav">
+            <span class="header"><span class="web">Web</span><span class="studio">Studio</span></span>
+
+            <button type="button" 
+            class="menu-buttom is-open" 
+            aria-expanded="false" 
+            aria-controls="menu-conteiner"
+            data-menu-button="">
+                <svg width="24px" height="16px" 
+                aria-label="переключатель мобільного меню">
+                    <use class="icon-close" href="./images/sprite.svg#menu"></use>
+                    <use class="icon-menu" href="./images/sprite.svg#close"></use>
+                </svg>
+            </button>
+
+            <div class="menu-conteiner" id="menu-conteiner" data-menu>
+                контент меню
+            </div>
         </nav>   
            
 

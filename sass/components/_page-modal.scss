@@ -81,8 +81,7 @@ placeholder{
 .chek{
 color: $text-color;
 font-weight: 400;
-font-size: 14px;
-line-height: 2;
+
 padding-left: 1.2em;
 }
 .check-input{
@@ -261,7 +260,7 @@ margin-left: 40px;
     }
 .modal{
  height: 581px;
- width: 528px;
+
  background-color: $primary-white-color;
  position: absolute;
  top: 50%;
@@ -309,7 +308,7 @@ margin-left: 40px;
  padding-left: 16px;
  }
  .windows-input{
- width: 448px;
+ 
  height: 40px;
  padding-left: 42px;
  border: 1px solid rgba(33, 33, 33, 0.2);
@@ -371,3 +370,42 @@ cursor: pointer;
    margin-left: 164px;
    margin-bottom: 40px;
  }
+
+ @media screen and (min-width: 480px){
+  .modal{
+    width: 450px;
+    .windows-input {
+     width: 380px;
+    }
+    .name-one{
+      width: 380px;
+    }
+    .chek{
+font-size: 12px;
+line-height: 1.17;
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+  .modal{
+
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .modal{
+    width: 528px;
+    .windows-input {
+      width: 448px;
+    }
+    .chek{
+font-size: 14px;
+line-height: 2;
+    }
+    .name-one{
+      width: 450px;
+    }
+  }
+ 
+}
