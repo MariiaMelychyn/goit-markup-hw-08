@@ -1,3 +1,45 @@
+@media screen and (min-width: 480px){
+  .fotter-save{
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px){
+  .fotter-save{
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px){
+  .fotter-save{
+    max-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 480px){
+  .footer{
+    max-width: 480px;
+    padding-top: 60px;
+  
+  }
+}
+@media screen and (min-width: 768px){
+  .footer{
+    max-width: 768px;
+    padding-top: 60px;
+   
+  }
+}
+@media screen and (min-width: 1200px){
+  .footer{
+    max-width: 1600px;
+    align-content: flex-start;
+    background-color: rgb(47, 48, 58);
+    padding-top: 60px;
+ height: 252px;
+ align-items: baseline;
+ -webkit-box-align: baseline;
+   
+  }
+}
 .general {
   max-width: 320px;
 }
@@ -36,6 +78,7 @@
     .general {
       max-width: 768px;
       width: 100%;
+      padding-left: 76px;
       text-align: center;
       padding-bottom: 60px;
       .container-new{
@@ -56,13 +99,39 @@
      display: flex;
      flex-wrap: wrap;
      width: 768px;
-     .general {
-    width: 50%;
-    }
+     
     .container-too{
-width: 50%;
+padding-left: 165px;
 padding-right: inherit;
     }
+    }
+  }
+
+  @media screen and (min-width: 1200px){
+    .contactu-footer{
+     display: flex;
+     flex-wrap: nowrap;
+     width: 768px;
+     .container-new{
+       align-items: center;
+       margin-right: 70px;
+       margin-left: 70%;
+     }
+     .element{
+       margin-left: 93px;
+     }
+    .container-too{
+padding-left: 50%;
+padding-right: inherit;
+    }
+    .association{
+      padding-right: 80px;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-items: baseline;
+      margin-top: 0;
+          }
     }
   }
 
@@ -82,8 +151,6 @@ display: flex;
 .footer{
   display: flex;
   align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
   
   background-color: #2F303A;
    }
@@ -246,11 +313,11 @@ line-height: 1.19;
       
     }
     @media screen and (min-width: 768px) {
-        max-width: 768px;
+      width: 50%;
         display: flex;
-        flex-wrap: wrap;
-        padding-right: 76px;
-        width: 50%;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+       padding-right: 60px;
     }
     @media screen and (min-width: 1200px) {
         max-width: 1200px;
@@ -265,7 +332,7 @@ padding-bottom: 20px;
   }
   @media screen and (min-width: 768px){
     .association{
-flex-wrap: wrap;
+
 padding-bottom: 20px;
     }
   }
@@ -273,7 +340,7 @@ padding-bottom: 20px;
   @media screen and (min-width: 480px){
     .footer-button{
 padding-top: 20px;
-padding-left: 50px;
+padding-left: 80px;
     }
   }
   @media screen and (min-width: 1200px){
@@ -288,14 +355,35 @@ padding-left: 50px;
 padding-right: 10%;
     }
   }
-  @media screen and (min-width: 768px){
-    .sulka{
+  
+  @media screen and (min-width: 480px){
+.sulka{
+  margin-left: 25%;
+}
+@media screen and (min-width: 768px){
+  .sulka{
+    margin-left: 30%;
+  }
+}
+.association{
+  margin-left: 50px;
+}
 
-text-align: center;
+@media screen and (min-width: 768px){
+  .association{
+    margin-top: 20px;
+    flex-direction: column;
+    padding-left: 100px;
+  }
+}
+  }
+  @media screen and (min-width: 768px){
+    .element{
+      max-width: 768px;
     }
   }
-
-.element{
-  margin-left: 0;
-}
-  
+  @media screen and (min-width: 768px){
+    section{
+      padding-left: 20px;
+    }
+  }
