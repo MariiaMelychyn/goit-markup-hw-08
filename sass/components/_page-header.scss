@@ -254,12 +254,18 @@ display:inline-block;
     }
 
 
+
     .menu-buttom{
       display: inline-flex;
       margin: 0;
       padding: 0;
       border: none;
-      background-color: blue;
+      background-color: #FFFFFF;
+     
+
+      @media screen and (min-width: 768px) {
+        display: none;
+      }
     }
     .menu-buttom .icon-close{
       display: none;
@@ -285,17 +291,158 @@ display:inline-block;
     }
     .menu-conteiner{
       display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      height: 400px;
-      background-color: chartreuse;
+      
+    width: 480px;
+    height: 796px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
       padding: 20px;
-      text-align: center;
       font-size: 20px;
+      display: flex;
+      flex-wrap: wrap;
 
       &.is-open {
         display: block;
       }
+      @media screen and (max-width: 767px) {
+        display: none;
+        position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      }
     }
+
+
+    .navigation{
+      margin-left: 40px;
+      padding-top: 48px;
+     padding-bottom: 32px;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+    
+     & li{
+      margin-right: 50px;
+      display: block;
+     
+    }
+     & li:last-child{
+        margin-right: 0;
+     }
+    }
+  .site-nav__stydio-stydio{
+      color: $title-text-color;
+  position: relative;
+  font-weight: 500;
+ padding-bottom: 35.71px;
+  font-size: 40px;
+  line-height: 1.17;
+  text-decoration: none;
+  display:inline-block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
+&:hover{
+  color: $accent-color ;
+}
+    }
+    
+    .site-nav__portfolio-portfolio {
+      color: $title-text-color;
+      position: relative;
+      font-weight: 500;
+     padding-bottom: 35.71px;
+      font-size: 40px;
+      line-height: 1.17;
+      text-decoration: none;
+      display:inline-block;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     
+    &:hover{
+      color: $accent-color ;
+    }
+    }
+
+    .site-nav__kontactu-kontactu{
+      color: $title-text-color;
+      position: relative;
+      font-weight: 500;
+     padding-bottom: 302px;
+      font-size: 40px;
+      line-height: 1.17;
+      text-decoration: none;
+      display:inline-block;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     
+    &:hover{
+      color: $accent-color ;
+    }
+    }
+
+
+    .contactu-navigation{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .auth-nav__link-tel-tel{
+      color: $accent-color;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    padding-left: 40px;
+    padding-bottom: 32px;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .auth-nav__link-link{
+      color: $text-color;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover .auth-nav__telephone,
+    &:focus .auth-nav__telephone{
+    stroke: $accent-color;
+  }
+    }
+
+    .button-mobile{
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: $primary-white-color;
+      border: 1px solid #FFFFFF;
+      border: none;
+         }
+
+  .close-mobile{
+      fill: #212121;
+      position: absolute;
+      right: 4px;
+      bottom: 90%;
+     
+      cursor: pointer;
+      width: 18px;
+      height: 18px;
+      &:hover{
+        fill: $accent-color;
+          }
+  }
+  .sot-mobile{
+    display: flex;
+  }
+
+  .socsial{
+    color: #2196F3;
+    font-size: 18;
+    line-height: 1.22;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
