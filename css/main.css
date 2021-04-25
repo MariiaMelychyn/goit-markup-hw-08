@@ -573,6 +573,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .container-too {
+    text-align: start;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .general {
     max-width: 768px;
@@ -611,6 +617,20 @@ ul {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .social-one-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .clase {
+    margin-left: 50px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .contactu-footer {
     display: -webkit-box;
@@ -628,14 +648,16 @@ ul {
     margin-left: 70%;
   }
   .contactu-footer .element {
-    margin-left: 93px;
+    margin-left: 150px;
   }
   .contactu-footer .container-too {
     padding-left: 50%;
     padding-right: inherit;
   }
   .contactu-footer .association {
-    padding-right: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -649,6 +671,26 @@ ul {
         -ms-flex-align: baseline;
             align-items: baseline;
     margin-top: 0;
+  }
+  .contactu-footer input::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .contactu-footer input:-ms-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .contactu-footer input::-ms-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .contactu-footer input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
   }
 }
 
@@ -666,6 +708,7 @@ ul {
             align-items: baseline;
     margin-right: 0;
     margin-left: 0;
+    text-align: left;
   }
 }
 
@@ -682,7 +725,6 @@ ul {
 .connect {
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 0;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -897,6 +939,7 @@ ul {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding-bottom: 20px;
+    margin-top: 20px;
   }
 }
 
@@ -958,6 +1001,12 @@ ul {
 @media screen and (min-width: 768px) {
   .element {
     max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .element {
+    max-width: 1200px;
   }
 }
 
@@ -1423,37 +1472,6 @@ placeholder {
   text-align: center;
 }
 
-.association {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 20px;
-}
-
-.association input::-webkit-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-}
-
-.association input:-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-}
-
-.association input::-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-}
-
-.association input::placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-}
-
 .chek {
   color: #757575;
   font-weight: 400;
@@ -1855,11 +1873,41 @@ textarea:hover, textarea:focus {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .button-port {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .portfolio-photo {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .portfolio__element {
+    width: 450px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .button-portfolio {
     max-width: 768px;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-photo {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .portfolio__element {
+    width: 354px;
   }
 }
 
@@ -1911,6 +1959,14 @@ section {
 @media screen and (min-width: 768px) {
   .portfolio {
     max-width: 768px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .portfolio .portfolio__element {
+    width: 50%;
   }
 }
 
@@ -2029,7 +2085,6 @@ p {
   margin-right: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 370px;
   border: 1px solid #ceb9b9;
   background: #FFFFFF;
   margin-top: 0;
