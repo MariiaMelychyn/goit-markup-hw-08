@@ -108,8 +108,16 @@ display: block;
     height: auto;
 }
 
-@media screen and (max-width: 1900px){
+@media screen and (max-width: 1199px){
 .work-section{
 display: none;
 }
 }
+
+@media screen and (min-width: 480px) {
+  .section-comanda {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+      

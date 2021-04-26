@@ -25,18 +25,7 @@
   }
 }
   
-  @media screen and (min-width: 1200px) {
-    .feat-es {
-      max-width: 1200px;
-      display: flex;
-    flex-wrap: inherit;
-    margin-right: 0;
-    padding-right: 0;
-      & li:nth-child(4n){
-        margin-right: 0;
-      }
-    }
-  }
+ 
     
   
 .comanda{
@@ -182,7 +171,7 @@ background-color: $accent-color;
       text-align: center;
     }
   }
-  
+}
   @media screen and (min-width: 1200px) {
     .desctop-one{
      width: 50%;
@@ -191,7 +180,7 @@ background-color: $accent-color;
       width: 50%;
     }
   }
-}
+
 
 
 
@@ -305,5 +294,8 @@ text-align: center;
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
+  }
+  @media screen and (min-width: 1200px){
+    flex-basis: calc((100% - 8 * 15px) / 4);
   }
 }

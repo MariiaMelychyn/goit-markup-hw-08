@@ -486,53 +486,13 @@ ul {
 }
 
 .regular-customers {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-@media screen and (min-width: 480px) {
-  .regular-customers {
-    max-width: 480px;
-  }
-  .regular-customers .client {
-    width: 50%;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-  .regular-customers .client:nth-child(2n) {
-    margin-right: 0px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .regular-customers {
-    max-width: 768px;
-  }
-  .regular-customers .client {
-    width: 33.3333%;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .regular-customers {
-    max-width: 1200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .regular-customers li:nth-child(6n) {
-    margin-right: 0;
-  }
-  .regular-customers .client {
-    width: 16.6666%;
-    text-align: center;
-    padding-bottom: 30px;
-  }
+  flex-wrap: wrap;
+  margin: -15px;
+  padding: 0;
 }
 
 .client__link {
@@ -589,6 +549,18 @@ ul {
 
 .clien__battont {
   fill: #AFB1B8;
+}
+
+.clients {
+  padding: 94px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .client {
+    -ms-flex-preferred-size: calc((100% - 6 * 15px) / 3);
+        flex-basis: calc((100% - 6 * 15px) / 3);
+    margin: 15px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -2621,22 +2593,6 @@ p {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .feat-es {
-    max-width: 1200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: inherit;
-        flex-wrap: inherit;
-    margin-right: 0;
-    padding-right: 0;
-  }
-  .feat-es li:nth-child(4n) {
-    margin-right: 0;
-  }
-}
-
 .comanda {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
@@ -2783,10 +2739,10 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
-  .feat-es .desctop-one {
+  .desctop-one {
     width: 50%;
   }
-  .feat-es .desctop {
+  .desctop {
     width: 50%;
   }
 }
@@ -2931,6 +2887,13 @@ p {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .comanda {
+    -ms-flex-preferred-size: calc((100% - 8 * 15px) / 4);
+        flex-basis: calc((100% - 8 * 15px) / 4);
+  }
+}
+
 .picture-work {
   max-width: 320px;
 }
@@ -3043,9 +3006,16 @@ p {
   height: auto;
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1199px) {
   .work-section {
     display: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .section-comanda {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 /*# sourceMappingURL=main.css.map */

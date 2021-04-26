@@ -1,45 +1,11 @@
 .regular-customers {
- 
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-
-
-@media screen and (min-width: 480px) {
-    max-width: 480px;
-
-  .client{
-    width: 50%;
-   text-align: center;
-   padding-bottom: 30px;
-
-   &:nth-child(2n) {
-    margin-right: 0px;
-}
-  }
-}
-
-@media screen and (min-width: 768px) {
-    max-width: 768px;
-
-    .client{
-      width: 33.3333%;
-     text-align: center;
-     padding-bottom: 30px;
-}
-}
-
-@media screen and (min-width: 1200px) {
-    max-width: 1200px;
-    display: flex;
-  & li:nth-child(6n){
-      margin-right: 0;
-    }
-    .client{
-      width: 16.6666%;
-     text-align: center;
-     padding-bottom: 30px;
-}
-  }
+  margin: -15px;
+  padding: 0;
 }
 
 .client__link{
@@ -84,4 +50,14 @@
 
 .clien__battont{
   fill:  #AFB1B8;
+}
+.clients{
+  padding: 94px 0;
+}
+
+@media screen and (min-width: 768px){
+.client {
+    flex-basis: calc((100% - 6 * 15px) / 3);
+    margin: 15px;
+}
 }
