@@ -1,4 +1,11 @@
 
+  @media screen and (max-width: 767px){
+.page-header {
+    max-width: 480px;
+    position: relative;
+}
+}
+
 .container{
   max-width: 320px;
 }
@@ -42,7 +49,16 @@
     display: flex;
   }
 }
-
+@media screen and (max-width: 480px){
+  .site-nav{
+    display: none;
+  }
+}
+@media screen and (max-width: 480px){
+  .auth-nav{
+    display: none;
+  }
+}
 .site-nav{
   margin-left: 93px;
   padding-top: 32px;
@@ -252,7 +268,7 @@ display:inline-block;
           margin-left: 50px;
           }
     }
-
+    
 
     @media screen and (max-width: 480px){
     .menu-buttom{
@@ -298,11 +314,11 @@ display:inline-block;
     height: 796px;
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-      padding: 20px;
-      font-size: 20px;
-      display: flex;
-      flex-wrap: wrap;
-      position: absolute;
+   padding: 20px;
+   font-size: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   position: absolut;
       
       &.is-open {
         display: block;
