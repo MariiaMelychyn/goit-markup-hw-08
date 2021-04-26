@@ -1,3 +1,12 @@
+.footer{
+  padding: 60px 0;
+  background-color: #2f303a;
+  margin: 0;
+}
+.fotter-save{
+  margin-left: auto;
+    margin-right: auto;
+}
 @media screen and (min-width: 480px){
   .fotter-save{
     max-width: 480px;
@@ -14,40 +23,13 @@
   }
 }
 
-@media screen and (min-width: 480px){
-  .footer{
-    max-width: 480px;
-    padding-top: 60px;
-  
-  }
-}
-@media screen and (min-width: 768px){
-  .footer{
-    max-width: 768px;
-    padding-top: 60px;
-   
-  }
-}
-@media screen and (min-width: 1200px){
-  .footer{
-    max-width: 1600px;
-    align-content: flex-start;
-    background-color: rgb(47, 48, 58);
-    padding-top: 60px;
- height: 252px;
- align-items: baseline;
- -webkit-box-align: baseline;
-   
-  }
-}
-.general {
-  max-width: 320px;
-}
 
-@media screen and (min-width: 480px) {
+
+
+
+
+@media screen and (max-width: 767px) {
   .general {
-    max-width: 480px;
-    width: 100%;
     text-align: center;
    
     .container-new{
@@ -55,24 +37,14 @@
       align-items: center;
       padding-bottom: 60px;
     }
-    .container-too{
-      width: 100%;
-      padding-bottom: 60px;
-    }
+    
     .element{
       padding-bottom: 60px;
       margin-right: 0;
       }
     }
   }
-  @media screen and (min-width: 480px){
-    .container-too{
-      max-width: 480px;
-      width: 100%;
-      padding-bottom: 60px;
-      text-align: center;
-    }
-  }
+  
   @media screen and (min-width: 1200px){
     .container-too{
       text-align: start;
@@ -91,10 +63,7 @@
         align-items: center;
         padding-bottom: 60px;
       }
-      .container-too{
-        width: 50%;
-        padding-bottom: 60px;
-      }
+      
       .element{
         padding-bottom: 60px;
         }
@@ -105,13 +74,10 @@
      display: flex;
      flex-wrap: wrap;
      width: 768px;
-     
-    .container-too{
-padding-left: 165px;
-padding-right: inherit;
-    }
     }
   }
+    
+  
   @media screen and (min-width: 768px){
   .social-one-footer{
 display: flex;
@@ -184,6 +150,9 @@ display: flex;
  font-weight: 700;
  font-size: 14px;
  line-height: 1.17;
+ margin: 0 0 20px 0;
+    padding: 0;
+    color: #fff;
    }
   .container-new{
  align-items: center;
@@ -249,11 +218,12 @@ color: $text-color;
     
 .adress{
 color: $primary-white-color;
-margin-top: 0;
-margin-bottom: 9px;
-font-weight: 400;
-font-size: 14px;
-line-height: 2;
+font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
  }
 .auth-nav-footer{
  color: rgba(255, 255, 255, 0.6);
@@ -262,6 +232,10 @@ line-height: 2;
  font-weight: 400;
  font-size: 14px;
  line-height: 2; 
+ display: block;
+    padding: 0;
+    margin-top: 8px;
+   
 }
 .web-footer{
  
@@ -296,13 +270,14 @@ line-height: 1.19;
  padding: 20px 24px;
 }
 .sulka{
- text-transform: uppercase;
- color: $primary-white-color;
- margin-top: 0;
- margin-bottom: 20px;
- font-weight: 700;
- font-size: 14px;
- line-height: 1.17;
+ 
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #ffffff;
   }
 .signature{
   display: block;
@@ -323,36 +298,50 @@ line-height: 1.19;
    background-color: #188CE8
      }
      }
-  .container-too{
-    margin-right: 93px;
-  }
+     .signature{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 200px;
+      min-height: 50px;
+     }
+     @media screen and (max-width: 767px){
+  
+}
+
+.container-too{
+  padding: 5px 0 0 0;
+}
+
+
+@media screen and (max-width: 767px){
+  .container-too {
+    text-align: center;
+}
+.container-too{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+}
+
 
   .footer-class{
     @media screen and (min-width: 480px) {
-        max-width: 480px;
-        flex-wrap: wrap;
-        align-items: center;
-      
+        width: 480px;
+       
     }
+    
     @media screen and (min-width: 768px) {
-      width: 50%;
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: flex-start;
-       padding-right: 60px;
+      width: 768px;
+      display: flex;
+      padding-left: 15px;
+    padding-right: 15px;
     }
     @media screen and (min-width: 1200px) {
         max-width: 1200px;
     }
   }
 
-  @media screen and (min-width: 480px){
-    .association{
-flex-wrap: wrap;
-padding-bottom: 20px;
-margin-top: 20px;
-    }
-  }
   @media screen and (min-width: 768px){
     .association{
 
@@ -373,24 +362,7 @@ padding-left: 50px;
     }
   }
 
-  @media screen and (min-width: 480px){
-    .sulka{
-padding-right: 10%;
-    }
-  }
   
-  @media screen and (min-width: 480px){
-.sulka{
-  margin-left: 25%;
-}
-@media screen and (min-width: 768px){
-  .sulka{
-    margin-left: 30%;
-  }
-}
-.association{
-  margin-left: 50px;
-}
 
 @media screen and (min-width: 768px){
   .association{
@@ -399,7 +371,7 @@ padding-right: 10%;
     padding-left: 100px;
   }
 }
-  }
+  
   @media screen and (min-width: 768px){
     .element{
       max-width: 768px;
@@ -415,3 +387,59 @@ padding-right: 10%;
       padding-left: 20px;
     }
   }
+  .container-webstudio{
+    margin-bottom: 20px;
+  }
+.clase{
+  text-align: center;
+    display: block;
+}
+
+.association{
+  display: block;
+}
+.tabl{
+  border: 1px solid rgba(255,255,255,0.3);
+  margin-bottom: 20px;
+  max-width: 358px;
+  padding: 15px 295px 15px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: rgba(255,255,255,0.6);
+ &:hover,
+ &:focus{
+  border: 1px solid var(--accent-color);  
+   }
+   }
+
+   @media screen and (min-width: 768px) and (max-width: 1199px){
+.general {
+    
+    flex-basis: calc((100% - 4 * 15px) / 2);
+    text-align: center;
+    margin-bottom: 60px;
+}
+   }
+
+   @media screen and (min-width: 768px) and (max-width: 1199px){
+.container-too {
+    flex-basis: calc((100% - 4 * 15px) / 2);
+    text-align: center;
+}
+   }
+   .container-too{
+    padding: 5px 0 0 0;
+   }
+   .social-list-footer{
+    padding: 5px 0 0 0;
+   }
+   .footer-logo{
+    display: inline-flex;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #fff;
+    margin-bottom: 20px;
+   }
