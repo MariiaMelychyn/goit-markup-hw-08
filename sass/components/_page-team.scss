@@ -14,17 +14,6 @@
   }
   
  
-  .feat-es{
-  @media screen and (min-width: 768px) {
-    width: 50%;
-    overflow: hidden;
-    }
-  }
-  @media screen and (min-width: 768px){
-.feat-es .comanda {
-  width: 354px; 
-}
-}
 @media screen and (min-width: 768px){
   .section-comanda{
     padding-left: 15px;
@@ -45,40 +34,41 @@
     padding-right: 0;
       & li:nth-child(4n){
         margin-right: 0;
-        .comanda{
-          width: 1200px;
-          display: flex;
-        }
-     }
+      }
     }
   }
+    
+  
 .comanda{
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
-  -webkit-box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
-  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+ 
  }
 .photo-studio{
- width: 270px;
- margin-top: 0;
- margin-bottom: 30px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .Feat-ess__title{
   color: $title-text-color ;
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
+  margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .Feat-es__list{
    color: $text-color;
-   margin-top: 0;
-   margin-bottom: 30px;
-   font-weight: 400;
    font-size: 16px;
-   line-height: 1.18;
-   margin-bottom: 16px;
+    line-height: 1.18;
+    text-align: center;
+    margin-bottom: 16px;
 }
 
   
@@ -145,15 +135,8 @@ background-color: $accent-color;
  fill: $primary-white-color;
     }
     }
-    
-    
-   
-    
-    @media screen and (min-width: 480px) {
-      .photo-studio {
-        width: 450px;
-      }
-    }
+  
+  
     
     @media screen and (min-width: 768px) {
       .photo-studio {
@@ -166,18 +149,11 @@ background-color: $accent-color;
     width: 270px;
       }
     }
-   .comanda{
-    @media screen and (min-width: 768px) {
-        width: 768px;
-        flex-basis: calc((100% - 2 * 30px)/2);
-        flex-wrap: wrap;
-    }
+   
     
-    @media screen and (min-width: 1200px) {
-    width: 270px;
-    flex-basis: calc((100% - 4 * 30px)/4);
-   }
-  }
+    
+
+
 
 .feat-es{
 
@@ -263,20 +239,8 @@ text-align: center;
   text-align: center;
   padding: 60px 0;
   margin-bottom: 0;
+}
 
-@media screen and (min-width: 768px){
-  .feat-es{
-    max-width: 1119px;
-    width: 100%;
-  }
-}
-@media screen and (min-width: 1200px){
-  .feat-es{
-    max-width: 1200px;
-    width: 100%;
-  }
-}
-}
 .desctop{
   width: 354px;
 
@@ -334,5 +298,12 @@ text-align: center;
   .desctop-one {
     width: 1200px;
     display: flex;
+  }
+}
+
+.comanda{
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
   }
 }
