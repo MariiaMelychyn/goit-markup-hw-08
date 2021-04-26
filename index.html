@@ -18,12 +18,14 @@
          <nav class="nav">
             <span class="header"><span class="web">Web</span><span class="studio">Studio</span></span>
 
+            <div>
             <button type="button" 
             class="menu-buttom is-open" 
             aria-expanded="false" 
             aria-controls="menu-conteiner"
             data-menu-button="">
                 <svg width="24px" height="16px" 
+                class="mobile-icon"
                 aria-label="переключатель мобільного меню">
                     <use class="icon-close" href="./images/sprite.svg#menu"></use>
                     <use class="icon-menu" href="./images/sprite.svg#close"></use>
@@ -31,11 +33,16 @@
             </button>
 
             <div class="menu-conteiner" id="menu-conteiner" data-menu>
-                <button type="button"
-                data-modal-close
-                 class="button-mobile">
-                    <svg width="11px" height="11px" aria-label="close" class="close-mobile">
-                        <use href="./images/symbol-defs.svg#vector7"></use>
+                <button type="button" 
+                class="menu-buttom " 
+                aria-expanded="false" 
+                aria-controls="menu-conteiner"
+                data-menu-button="">
+                    <svg width="24px" height="16px" 
+                    class="mobile-icon"
+                    aria-label="переключатель мобільного меню">
+                        
+                        <use class="icon-menu" href="./images/sprite.svg#close"></use>
                     </svg>
                 </button>
                 <div class="navigation">
@@ -51,23 +58,18 @@
                         info@devstudio.com
                     </a>
                 </div>
-            
+            </div>
 
             <div class="sot-mobile">
-                <a href="" class="socsial">Instagram</a>
-                <svg width="0px" height="22px" aria-label="close-mobile" class="close-mobile">
-                    <use href="./images/sptiteline.svg#Line"></use>
-                </svg>
-                <a href="" class="socsial"> Twitter</a>
-                <svg width="0px" height="22px" aria-label="close-mobile" class="close-mobile">
-                    <use href="./images/sptiteline.svg#Line"></use>
-                </svg>
-                <a href="" class="socsial"> Facebook</a>
-                <svg width="2px" height="22px" aria-label="close-mobile" class="close-mobile">
-                    <use href="./images/sptiteline.svg#Line"></use>
-                </svg>
-                <a href="" class="socsial"> LinkedIn</a>
-
+                <ul class="sot-mobile">
+                <li class=""><a href="" class="socsial"> Instagram </a></li>
+                
+                <li class="instagram"><a href="" class="socsial"> Twitter </a></li>
+                
+                <li class="instagram"><a href="" class="socsial"> Facebook </a></li>
+            
+                <li class="instagram"><a href="" class="socsial"> LinkedIn </a></li>
+</ul>
             </div>
             </div>
         </nav>   
