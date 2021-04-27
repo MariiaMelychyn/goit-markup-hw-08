@@ -386,13 +386,6 @@ ul {
 }
 
 @media screen and (min-width: 480px) {
-  .section-work {
-    width: 480px;
-    padding-bottom: 0;
-  }
-}
-
-@media screen and (min-width: 480px) {
   .features__item-warning {
     width: 480px;
   }
@@ -1054,12 +1047,6 @@ ul {
 @media screen and (min-width: 1200px) {
   .element {
     max-width: 1200px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  section {
-    padding-left: 20px;
   }
 }
 
@@ -2604,12 +2591,6 @@ p {
 @media screen and (min-width: 768px) {
   .section-comanda {
     padding-left: 15px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .section {
-    padding-left: 0px;
   }
 }
 
