@@ -1274,51 +1274,6 @@ ul {
   border-radius: 2px;
 }
 
-.site-nav__kontactu {
-  color: #212121;
-  position: relative;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none;
-  display: inline-block;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.site-nav__kontactu:hover, .site-nav__kontactu:focus {
-  color: #2196F3;
-}
-
-.site-nav__kontactu:hover::after {
-  display: block;
-}
-
-.site-nav__portfolio,
-.site-nav__kontactu {
-  color: #212121;
-  position: relative;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none;
-  display: inline-block;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.site-nav__portfolio:hover, .site-nav__portfolio:focus,
-.site-nav__kontactu:hover,
-.site-nav__kontactu:focus {
-  color: #2196F3;
-}
-
-.site-nav__portfolio:hover, .site-nav__portfolio:focus,
-.site-nav__kontactu:hover,
-.site-nav__kontactu:focus {
-  color: #2196F3;
-}
-
 .web {
   width: 1200px;
   padding-left: 15px;
@@ -1758,6 +1713,82 @@ ul {
 .mobile-icon:hover .icon-menu,
 .mobile-icon:focus .icon-close {
   fill: #2196f3;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-conteiner {
+    display: none;
+  }
+  .menu-buttom {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .tabletka {
+    width: 768px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: red;
+    border: 4px solid red;
+  }
+  .tabletka .site-nav__kontactu {
+    color: #212121;
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .tabletka .site-nav__kontactu:hover, .tabletka .site-nav__kontactu:focus {
+    color: #2196F3;
+  }
+  .tabletka .site-nav__kontactu:hover::after {
+    display: block;
+  }
+  .tabletka .site-nav__portfolio,
+  .tabletka .site-nav__kontactu {
+    color: #212121;
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .tabletka .site-nav__portfolio:hover, .tabletka .site-nav__portfolio:focus,
+  .tabletka .site-nav__kontactu:hover,
+  .tabletka .site-nav__kontactu:focus {
+    color: #2196F3;
+  }
+  .tabletka .site-nav__portfolio:hover, .tabletka .site-nav__portfolio:focus,
+  .tabletka .site-nav__kontactu:hover,
+  .tabletka .site-nav__kontactu:focus {
+    color: #2196F3;
+  }
+  .site-nav {
+    margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .site-nav li {
+    margin-right: 50px;
+    display: block;
+  }
+  .site-nav li:last-child {
+    margin-right: 0;
+  }
 }
 
 .hero {
