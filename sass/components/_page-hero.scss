@@ -1,71 +1,79 @@
-
-@media screen and (min-width: 480px) {
-  .hero {
-    max-width: 1600px;
-    background-image: linear-gradient( to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),url('../images/Img\(24\).png');
-  }
+.hero{
+  text-align: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background-color: #2f303a;
+}
+@media screen and (max-width: 1199px){
+.hero {
+    height: 400px;
+}
+}
+@media screen and (min-width: 1200px){
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+}
+@media screen and (min-width: 480px){
+.section-hero {
+  width: 480px;
+}
+}
+@media screen and (min-width: 768px){
+.section-hero {
+    width: 768px;
+}
+}
+@media screen and (min-width: 1200px){
+.section-hero {
+    width: 1200px;
+}
 }
 
-@media screen and (min-width: 768px) {
-  .hero {
-    max-width: 1600px;
-    background-image: linear-gradient( to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),url('../images/Img\(24\).png');
-  }
-}
+.overlay{
+  max-width: 1600px;
+margin-left: auto;
+margin-right: auto;
+background-repeat: no-repeat;
+background-position: center;
 
-@media screen and (min-width: 1200px) {
-  .hero {
-    max-width: 1600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 1px solid black;
-   background-color: $text-color;
-   background-image: linear-gradient( to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),url('../images/Img\(24\).png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+background-size: cover;
 }
 .section-hero{
-  padding-top: inherit;
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
+  margin-left: auto;
+    margin-right: auto;
  }
  .hero__section-glava{
-  margin-top: 0;
-  margin-bottom: 40px;
-  text-align: center;
-  color: $primary-white-color;
-  font-weight: 900;
+  color: #fff;
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    max-width: 696px;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
   
   
-  @media screen and (min-width: 480px) {
-    .hero__section-glava {
-  max-width: 480px;
-  font-size: 26px;
-  line-height: 1.62;
-  text-transform: uppercase;
-    }
-  }
   
-  @media screen and (min-width: 768px) {
-    .hero__section-glava {
-      max-width: 768px;
-      font-size: 26px;
-      line-height: 1.62;
-      text-transform: uppercase;
-    }
+  
+  @media screen and (max-width: 1199px){
+.hero__section-glava {
+    font-size: 26px;
+    line-height: 1.62;
+}
   }
   
   @media screen and (min-width: 1200px) {
     .hero__section-glava {
-      max-width: 1200px;
       font-size: 44px;
       line-height: 1.36;
-      text-transform: uppercase;
     }
   }
   .hero__button{

@@ -9,26 +9,51 @@
 }
 @media screen and (min-width: 480px){
   .fotter-save{
-    max-width: 480px;
+    width: 480px;
   }
 }
 @media screen and (min-width: 768px){
   .fotter-save{
-    max-width: 768px;
+    width: 768px;
   }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px){
+.fotter-save {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width: 1199px){
+.tabl {
+    margin-bottom: 20px;
+    width: 450px;
+}
 }
 @media screen and (min-width: 1200px){
   .fotter-save{
+    width: 1200px;
     display: flex;
-    max-width: 1200px;
     justify-content: space-between;
+
+    .association{
+      flex-direction: row;
+      align-items: flex-start;
+
+    }
   }
 }
 
-
-
-
-
+@media screen and (min-width: 1200px){
+.tabl {
+    margin-right: 12px;
+    width: 358px;
+}
+}
 
 @media screen and (max-width: 767px) {
   .general {
@@ -87,7 +112,7 @@ display: flex;
 }
 @media screen and (min-width: 768px){
   .clase{
-margin-left: 50px;
+padding: 0;
   }
 }
 @media screen and (min-width: 1200px){
@@ -316,9 +341,7 @@ line-height: 1.19;
       min-width: 200px;
       min-height: 50px;
      }
-     @media screen and (max-width: 767px){
   
-}
 
 .container-too{
   padding: 5px 0 0 0;
@@ -353,12 +376,6 @@ line-height: 1.19;
     }
   }
 
-  @media screen and (min-width: 768px){
-    .association{
-
-padding-bottom: 20px;
-    }
-  }
 
   @media screen and (min-width: 480px){
     .footer-button{
@@ -375,14 +392,7 @@ padding-left: 50px;
 
   
 
-@media screen and (min-width: 768px){
-  .association{
-    margin-top: 20px;
-    flex-direction: column;
-    padding-left: 100px;
-  }
-}
-  
+
   @media screen and (min-width: 768px){
     .element{
       max-width: 768px;
@@ -401,10 +411,20 @@ padding-left: 50px;
   text-align: center;
     display: block;
 }
+@media screen and (max-width: 1199px){
+.clase {
+    text-align: center;
+    display: block;
+}
+}
 
 .association{
   display: block;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
 }
+
 .tabl{
   border: 1px solid rgba(255,255,255,0.3);
   margin-bottom: 20px;
@@ -450,3 +470,9 @@ padding-left: 50px;
     color: #fff;
     margin-bottom: 20px;
    }
+   @media screen and (min-width: 1200px){
+    .clase {
+        text-align: left;
+    }
+    }
+    
