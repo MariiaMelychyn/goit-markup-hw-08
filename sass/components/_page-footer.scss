@@ -19,7 +19,9 @@
 }
 @media screen and (min-width: 1200px){
   .fotter-save{
+    display: flex;
     max-width: 1200px;
+    justify-content: space-between;
   }
 }
 
@@ -88,6 +90,13 @@ display: flex;
 margin-left: 50px;
   }
 }
+@media screen and (min-width: 1200px){
+  .clase{
+    text-align: left;
+  }
+}
+
+
   @media screen and (min-width: 1200px){
     .contactu-footer{
      display: flex;
@@ -134,14 +143,16 @@ display: flex;
  margin-right: 0;
  margin-left: 0;
  text-align: left;
+ flex-basis: calc((50% - 45px) / 2);
+ flex-direction: column;
   }
 }
-.footer{
-  display: flex;
-  align-items: baseline;
-  
-  background-color: #2F303A;
-   }
+@media screen and (min-width: 1200px){
+  .container-too{
+    flex-basis: calc((50% - 45px) / 2);
+  }
+}
+
 .connect{
  text-transform: uppercase;
  color: $primary-white-color;
