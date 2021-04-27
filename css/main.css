@@ -2514,6 +2514,14 @@ p {
   margin-right: 30px;
 }
 
+.button-port:not(:last-child) {
+  padding-right: 8px;
+}
+
+.button-port {
+  padding: 0;
+}
+
 .portfolio-container {
   padding-left: 15px;
   padding-bottom: 15px;

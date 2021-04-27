@@ -274,4 +274,9 @@ overflow: hidden;
     }
 }
     
-            
+   .button-port:not(:last-child) {
+    padding-right: 8px;
+}         
+.button-port{
+  padding: 0;
+}
