@@ -1138,18 +1138,19 @@ ul {
 
 @media screen and (max-width: 767px) {
   .page-header {
-    max-width: 480px;
+    width: 480px;
     position: relative;
   }
 }
 
-.container {
-  max-width: 320px;
-}
-
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .container {
-    max-width: 480px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .header {
     margin-left: 15px;
@@ -1267,11 +1268,22 @@ ul {
 
 .studio {
   width: 1200px;
-  padding-right: 15px;
   color: #212121;
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
+}
+
+@media screen and (min-width: 768px) {
+  .studio {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .studio {
+    padding-right: 15px;
+  }
 }
 
 .auth-nav__link {
@@ -1735,6 +1747,14 @@ ul {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .auth-nav .aut-nav__aut-nav {
     padding-bottom: 10px;
