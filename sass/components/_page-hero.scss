@@ -96,3 +96,35 @@ background-size: cover;
   border: 1px solid $accent-color;
       }
       }
+      @media screen and (max-width: 768px){
+.overlay {
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url(../images/hero/h.Img.jpg);
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url(../images/hero/h.Img.jpg);
+}
+      }
+
+      @media not all, screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx){
+   .overlay {
+    background-image: (linear, left top, right top, from(rgba(47,48,58,0.4)), to(rgba(47,48,58,0.4))),url(../images/hero/h.Img@2x.jpg);
+    background-image: (to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)),url(../images/hero/h.Img@2x.jpg);
+}
+      }
+
+
+
+    @media screen and (min-width: 768px){
+.overlay {
+ 
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)),url(../images/hero/header.img.jpg);
+}
+    }
+    @media not all, screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx){
+.overlay {
+  
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)),url(../images/hero/header.img@2x.jpg);
+}
+    }
+
+
+    
+  

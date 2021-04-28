@@ -295,3 +295,8 @@ text-align: center;
     flex-basis: calc((100% - 8 * 15px) / 4);
   }
 }
+@media screen and (max-width: 767px){
+.photo-studio {
+    width: 450px;
+}
+}
