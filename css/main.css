@@ -19,6 +19,12 @@ ul {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
 .features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2412,11 +2418,6 @@ textarea:hover, textarea:focus {
     font-size: 16px;
     line-height: 1.87;
   }
-  .button-portfolio {
-    max-width: 480px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
   .button-port {
     margin-top: 10px;
   }
@@ -2430,6 +2431,14 @@ textarea:hover, textarea:focus {
   }
   .portfolio__element {
     max-width: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-portfolio {
+    width: 480px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
