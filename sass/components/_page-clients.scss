@@ -54,6 +54,7 @@
 @media screen and (min-width: 1200px){
 .clients{
   padding: 94px 0;
+  height: 372px;
 }
 }
 
@@ -66,6 +67,7 @@
 }
 @media screen and (min-width: 1200px){
   .client{
+   
     flex-basis: calc((100% - 12 * 15px) / 6);
     margin: 0;
   }

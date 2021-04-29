@@ -279,8 +279,8 @@
     margin-bottom: 10px;
     font-family: "Roboto",sans-serif;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1.14;
+    font-size: 14px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -378,5 +378,11 @@
   @media screen and (min-width: 1200px){
 .features {
   display: -webkit-box;
+}
+  }
+  @media screen and (max-width: 767px){
+.features__title {
+    width: 100%;
+    justify-content: center;
 }
   }

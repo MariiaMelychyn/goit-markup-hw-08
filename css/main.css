@@ -318,8 +318,8 @@ img {
   margin-bottom: 10px;
   font-family: "Roboto",sans-serif;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.14;
+  font-size: 14px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -439,6 +439,15 @@ img {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .features__title {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .regular-customers {
   width: 100%;
   display: -webkit-inline-box;
@@ -510,6 +519,7 @@ img {
 @media screen and (min-width: 1200px) {
   .clients {
     padding: 94px 0;
+    height: 372px;
   }
 }
 
@@ -772,6 +782,7 @@ img {
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 0;
     margin: auto;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
@@ -1336,6 +1347,7 @@ img {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
+  margin-right: 30px;
   line-height: 1.14;
   text-decoration: none;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1359,6 +1371,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .menu-buttom {
+    z-index: 10;
     position: absolute;
     top: 10px;
     right: 15px;
@@ -1779,6 +1792,7 @@ img {
   }
   .auth-nav .aut-nav__aut-nav {
     padding-bottom: 10px;
+    margin-right: 30px;
   }
   .auth-nav .aut-nav__aut-navtel {
     padding-bottom: 1px;
@@ -2598,8 +2612,8 @@ textarea:hover, textarea:focus {
   display: block;
   padding-top: 6px;
   padding-bottom: 6px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 17px;
+  padding-right: 17px;
   cursor: pointer;
   border: 1px solid transparent;
   font-weight: 500;
@@ -2839,6 +2853,9 @@ p {
     display: -ms-flexbox;
     display: flex;
   }
+  .button-portfolio__portfolio {
+    margin-right: 8px;
+  }
 }
 
 .work-section {
@@ -2884,7 +2901,6 @@ p {
   font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   margin-bottom: 10px;
 }
 
@@ -3046,7 +3062,8 @@ p {
     max-width: 1200px;
     color: #212121;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: auto;
+    margin-bottom: 60px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
