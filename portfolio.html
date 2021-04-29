@@ -13,81 +13,82 @@
 </head>
 <body>
    
-   <header class="page-header">
-      <div class="container">
-       <nav class="nav">
-          <span class="header"><span class="web">Web</span><span class="studio">Studio</span></span>
-      
+  <header class="page-header">
+    <div class="container">
+        <nav class="nav">
+        <span class="header"><span class="web">Web</span><span class="studio">Studio</span></span>
+         
+        <div class="menu-conteiner" id="menu-conteiner" data-menu>
+            <ul class="navigation">
+               <li class="studio-windows"><a  href="" class="site-nav__stydio-stydio">Студия</a></li> 
+               <li class="studio-windows"><a  href="./portfolio.html" class="site-nav__portfolio-portfolio" >Портфолио</a></li> 
+               <li class="studio-windows"><a  href="" class="site-nav__kontactu-kontactu">Контакты</a></li> 
+            </ul>
+            <ul class="contactu-navigation">
+            <li class="telephone"><a class="auth-nav__link-tel-tel" href="">
+                    +38 096 111 11 11
+                  </a></li> 
+             <li class="email"><a class="auth-nav__link-link" href="">
+                    info@devstudio.com
+                </a></li> 
+            </ul>
+        
 
-      <div class="menu-conteiner" id="menu-conteiner" data-menu>
-        <ul class="navigation">
-           <li class="studio-windows"><a  href="" class="site-nav__stydio-stydio">Студия</a></li> 
-           <li class="studio-windows"><a  href="./portfolio.html" class="site-nav__portfolio-portfolio" >Портфолио</a></li> 
-           <li class="studio-windows"><a  href="" class="site-nav__kontactu-kontactu">Контакты</a></li> 
-        </ul>
-        <ul class="contactu-navigation">
-        <li class="telephone"><a class="auth-nav__link-tel-tel" href="">
-                +38 096 111 11 11
-              </a></li> 
-         <li class="email"><a class="auth-nav__link-link" href="">
+        
+            <ul class="sot-mobile">
+            <li class=""><a href="" class="socsial"> Instagram </a></li>
+            
+            <li class="instagram"><a href="" class="socsial"> Twitter </a></li>
+            
+            <li class="instagram"><a href="" class="socsial"> Facebook </a></li>
+        
+            <li class="instagram"><a href="" class="socsial"> LinkedIn </a></li>
+       </ul>
+        </div>
+    
+        <button type="button" 
+        class="menu-buttom is-open" 
+        aria-expanded="false" 
+        aria-controls="menu-conteiner"
+        data-menu-button="">
+            <svg width="40px" height="40px" 
+            class="mobile-icon"
+            aria-label="переключатель мобільного меню">
+                <use class="icon-close" href="./images/sprite.svg#menu"></use>
+                <use class="icon-menu" href="./images/sprite.svg#close"></use>
+            </svg>
+        </button>
+        
+        <div class="tabletka">
+        <ul class="site-nav">
+            <Li><a  href="" class="site-nav__stydio">Студия</a></Li>
+            <li><a  href="./portfolio.html" class="site-nav__portfolio" >Портфолио</a></li>
+            <li><a  href="" class="site-nav__kontactu">Контакты</a></li>
+         </ul>
+         
+        <ul class="auth-nav">
+            <li class="aut-nav__aut-nav">
+                <a class="auth-nav__link" href="">
+                <svg class="auth-nav__telephone">
+                    <use href="./images/sprite7.svg#convert1"></use>
+         </svg>
                 info@devstudio.com
-            </a></li> 
+            </a></li>
+            <li class="aut-nav__aut-navtel">
+                <a class="auth-nav__link-tel" href="">
+                <svg class="auth-nav__telephone-one">
+                    <use href="./images/sprite7.svg#smartphone1"></use>
+                </svg>
+              +38 096 111 11 11
+            </a></li>
         </ul>
-    
-
-    
-        <ul class="sot-mobile">
-        <li class=""><a href="" class="socsial"> Instagram </a></li>
-        
-        <li class="instagram"><a href="" class="socsial"> Twitter </a></li>
-        
-        <li class="instagram"><a href="" class="socsial"> Facebook </a></li>
-    
-        <li class="instagram"><a href="" class="socsial"> LinkedIn </a></li>
-   </ul>
     </div>
 
-    <button type="button" 
-    class="menu-buttom is-open" 
-    aria-expanded="false" 
-    aria-controls="menu-conteiner"
-    data-menu-button="">
-        <svg width="40px" height="40px" 
-        class="mobile-icon"
-        aria-label="переключатель мобільного меню">
-            <use class="icon-close" href="./images/sprite.svg#menu"></use>
-            <use class="icon-menu" href="./images/sprite.svg#close"></use>
-        </svg>
-    </button>
+    </nav>   
+    
+</div>
+ </header>
 
-    <div class="tabletka">
-       <ul class="site-nav">
-         <li><a href="./index.html" class="site-nav__portfolio" >Студия</a></li>
-         <li><a href="" class="site-nav__stydio-port">Портфолио</a></li>
-         <li><a href="" class="site-nav__kontactu">Контакты</a></li>
-       </ul>
-       
-       <ul class="auth-nav">
-        <li>
-            <a class="auth-nav__link" href="">
-            <svg class="auth-nav__telephone">
-                <use href="./images/sprite7.svg#convert1"></use>
-            </svg>
-            info@devstudio.com
-        </a></li>
-        <li>
-            <a class="auth-nav__link-tel" href="">
-            <svg class="auth-nav__telephone-one">
-                <use href="./images/sprite7.svg#smartphone1"></use>
-            </svg>
-          +38 096 111 11 11
-        </a></li>
-    </ul>
-  </div>
-  </nav>
-  </div>
-  
-   </header>
          <main class="portfolio-frame">
             
              <section class="section section-port">
@@ -385,6 +386,6 @@
         </div>
     </div>
       </footer>
-      <script src="./js/modal.js" ></script>
+      <script src="./js/modal.js"></script>
 </body>
 </html>
