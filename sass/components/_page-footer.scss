@@ -4,6 +4,8 @@
   margin: 0;
 }
 .fotter-save{
+  padding-left: 15px;
+    padding-right: 15px;
   margin-left: auto;
     margin-right: auto;
 }
@@ -83,7 +85,7 @@
     .general {
       max-width: 768px;
       width: 100%;
-      padding-left: 76px;
+     
       text-align: center;
       padding-bottom: 60px;
       .container-new{
@@ -445,8 +447,21 @@ padding-left: 50px;
     
     flex-basis: calc((100% - 4 * 15px) / 2);
     text-align: center;
-    margin-bottom: 60px;
+   
 }
+.tabl{
+  border: 1px solid rgba(255,255,255,0.3);
+  margin-bottom: 20px;
+ max-width: 450px;
+  padding: 15px 295px 15px 10px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: rgba(255,255,255,0.6);
+ &:hover,
+ &:focus{
+  border: 1px solid var(--accent-color);  
+   }
+   }
    }
 
    @media screen and (min-width: 768px) and (max-width: 1199px){

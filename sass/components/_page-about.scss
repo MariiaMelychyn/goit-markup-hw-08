@@ -63,6 +63,7 @@
         content: "";
         display: block;
         height: 120px;
+       
         background-repeat: no-repeat;
         background-position: center;
         background-color: $primary-text-color;  
@@ -78,7 +79,7 @@
       }
       @media screen and (min-width: 768px) {
         .features__item-warning::before {
-          width: 300px;
+          width: 100%;
         }
       }
       @media screen and (min-width: 1200px) {
@@ -117,7 +118,7 @@
       }
       @media screen and (min-width: 768px) {
         .features__list {
-          width: 270px;
+          width: 100%;
         }
       }
       @media screen and (min-width: 1200px) {
@@ -155,7 +156,7 @@
         }
         @media screen and (min-width: 768px) {
           .features__item-punctuality::before {
-            width: 300px;
+            width: 100%;
           }
         }
         @media screen and (min-width: 1200px) {
@@ -199,7 +200,7 @@
         }
         @media screen and (min-width: 768px) {
           .features__item-plan::before {
-            width: 300px;
+            width: 100%;
           }
         }
         @media screen and (min-width: 1200px) {
@@ -242,7 +243,7 @@
     }
     @media screen and (min-width: 768px) {
       .features__item-technology::before {
-        width: 300px;
+        width: 100%;
       }
     }
     @media screen and (min-width: 1200px) {

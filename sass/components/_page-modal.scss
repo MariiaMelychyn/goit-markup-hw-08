@@ -35,7 +35,7 @@
      }
 .backdrop{
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -359,6 +359,7 @@ cursor: pointer;
  @media screen and (min-width: 480px){
   .modal{
     width: 450px;
+    height: 609px;
     .windows-input {
      width: 380px;
     }
@@ -368,6 +369,13 @@ cursor: pointer;
     .chek{
 font-size: 12px;
 line-height: 1.17;
+    }
+    .text{
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+    .backdrop.is-hidden{
+      top: 60%;
     }
   }
 }
