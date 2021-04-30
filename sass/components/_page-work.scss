@@ -116,8 +116,14 @@ display: none;
 
 @media screen and (min-width: 480px) {
   .section-comanda {
-    padding-top: 94px;
-    padding-bottom: 94px;
+  
+    padding-bottom: 60px;
+  }
+  .class-title{
+margin-bottom: 30px;
+  }
+  .clients{
+    padding-top: 60px;
   }
 }
       

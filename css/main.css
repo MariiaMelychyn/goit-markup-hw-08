@@ -874,6 +874,20 @@ img {
   fill: #ffffff;
 }
 
+@media screen and (min-width: 480px) {
+  .social-one-footer {
+    margin-top: 12px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .social-one-footer {
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+}
+
 .social-footer-href {
   display: block;
   -webkit-box-pack: center;
@@ -2835,14 +2849,17 @@ p {
 
 .portfolio-container {
   padding-left: 15px;
-  padding-bottom: 15px;
-  margin-right: auto;
+  padding-right: 15px;
   margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 480px) {
   .portfolio-container .portfolio-container {
     max-width: 480px;
+  }
+  .portfolio-container .button-portfolio {
+    margin-bottom: 30px;
   }
 }
 
@@ -3378,8 +3395,13 @@ p {
 
 @media screen and (min-width: 480px) {
   .section-comanda {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 60px;
+  }
+  .class-title {
+    margin-bottom: 30px;
+  }
+  .clients {
+    padding-top: 60px;
   }
 }
 /*# sourceMappingURL=main.css.map */

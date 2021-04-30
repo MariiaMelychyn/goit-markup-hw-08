@@ -230,6 +230,19 @@ padding-bottom: 0;
    margin-left: 12px;
    fill: $primary-white-color;
    }
+   @media screen and (min-width: 480px){
+    .social-one-footer{
+      margin-top: 12px;
+   margin-left: 0;
+    }
+   }
+   @media screen and (min-width: 768px){
+    .social-one-footer{
+      margin-top: 12px;
+   margin-left: 12px;
+    }
+   }
+        
       
 .social-footer-href{
 display: block;
