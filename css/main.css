@@ -3020,10 +3020,8 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 
-@media screen and (min-width: 480px) {
-  .comanda {
-    margin-top: 30px;
-  }
+.comanda {
+  margin-top: 30px;
 }
 
 .photo-studio {
