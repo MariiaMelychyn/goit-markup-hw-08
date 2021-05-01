@@ -43,7 +43,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .features {
-    margin: -15px;
+    margin-top: -15px;
   }
   .features .feature-tehnologe {
     -ms-flex-preferred-size: 33.3333;
@@ -57,11 +57,14 @@ img {
     margin-bottom: 30px;
     margin-top: 30px;
   }
+  .tehnology {
+    width: 480px;
+    margin-left: 0;
+    margin-right: 15px;
+  }
 }
 
 .container-studio {
-  padding-left: 15px;
-  padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -564,12 +567,6 @@ img {
     -ms-flex-preferred-size: calc((100% - 4 * 15px) / 2);
         flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .class-title {
-    margin-bottom: 1px;
   }
 }
 
@@ -2973,8 +2970,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: -15px;
+      flex-wrap: wrap;
 }
 
 @media screen and (min-width: 768px) {
@@ -2984,10 +2980,16 @@ p {
 }
 
 .container-studio {
-  padding-left: 15px;
-  padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container-studio {
+    width: 480px;
+    margin-right: auto;
+    margin-left: 15px;
+  }
 }
 
 .comanda {
@@ -3039,12 +3041,24 @@ p {
 @media screen and (min-width: 768px) {
   .container-studio {
     width: 768px;
+    margin-left: 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container-studio {
     width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .feat-es {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 }
 
@@ -3437,8 +3451,33 @@ p {
   .class-title {
     margin-bottom: 60px;
   }
-  .clients {
-    padding-top: 75px;
+}
+
+@media screen and (min-width: 480px) {
+  .container-clientu {
+    margin-right: auto;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-clientu {
+    width: 768px;
+    margin-right: auto;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-clientu {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .regular-customers {
+    margin: 15px;
   }
 }
 /*# sourceMappingURL=main.css.map */

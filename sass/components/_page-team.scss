@@ -5,12 +5,11 @@
   
   
   .feat-es{
-    display: -webkit-box;
-    display: -ms-flexbox;
+  
     display: flex;
-    -ms-flex-wrap: wrap;
+   
     flex-wrap: wrap;
-    margin: -15px;
+    
   }
   
  
@@ -20,13 +19,18 @@
   }
 }
 .container-studio {
-  padding-left: 15px;
-  padding-right: 15px;
+ 
   margin-right: auto;
   margin-left: auto;
   
 }
-  
+@media screen and (min-width: 480px){
+.container-studio {
+    width: 480px;
+    margin-right: auto;
+    margin-left: 15px;
+}
+}
  
     
   
@@ -79,13 +83,22 @@ border-radius: 0px 0px 4px 4px;
   @media screen and (min-width: 768px) {
     .container-studio {
       width: 768px;
+      margin-left: 0;
     }
   }
   
   @media screen and (min-width: 1200px) {
     .container-studio {
   width: 1200px;
- 
+  padding-left: 15px;
+ padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+
+     }
+     .feat-es{
+       display: flex;
+       flex-wrap: nowrap;
      }
     }
  .social-list{
@@ -313,3 +326,4 @@ text-align: center;
     width: 450px;
 }
 }
+

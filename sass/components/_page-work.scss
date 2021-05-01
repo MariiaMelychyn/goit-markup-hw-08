@@ -130,8 +130,33 @@ margin-bottom: 30px;
   .class-title{
 margin-bottom: 60px;
   }
-  .clients{
-    padding-top: 75px;
-  }
+  
 }
+@media screen and (min-width: 480px){
+.container-clientu {
+   
+    margin-right: auto;
+    margin-left: 10px;
+}
+}
+@media screen and (min-width: 768px){
+  .container-clientu {
+      width: 768px;
+      margin-right: auto;
+      margin-left: 15px;
+  }
+  }
+  @media screen and (min-width: 1200px){
+    .container-clientu {
+      width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.regular-customers{
+  margin: 15px;
+}
+    }
+    
       
