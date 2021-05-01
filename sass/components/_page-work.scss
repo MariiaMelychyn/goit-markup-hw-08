@@ -118,45 +118,28 @@ display: none;
   .section-comanda {
   
     padding-bottom: 60px;
-  }
-  .class-title{
-margin-bottom: 30px;
-  }
-  .clients{
-    padding-top: 60px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .class-title{
-margin-bottom: 60px;
-  }
-  
+  } 
 }
 @media screen and (min-width: 480px){
-.container-clientu {
-   
-    margin-right: auto;
-    margin-left: 10px;
+  .container-clientu  {
+    width: 480px;
 }
 }
 @media screen and (min-width: 768px){
   .container-clientu {
       width: 768px;
-      margin-right: auto;
-      margin-left: 15px;
+     
   }
   }
   @media screen and (min-width: 1200px){
     .container-clientu {
-      width: 1200px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
-.regular-customers{
-  margin: 15px;
-}
+
     }
     
       

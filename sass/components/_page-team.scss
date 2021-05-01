@@ -7,7 +7,6 @@
   .feat-es{
   
     display: flex;
-   
     flex-wrap: wrap;
     
   }
@@ -17,6 +16,9 @@
   .section-comanda{
     padding-left: 15px;
   }
+  .feat-es{
+    margin: -15px;
+  }
 }
 .container-studio {
  
@@ -24,16 +26,7 @@
   margin-left: auto;
   
 }
-@media screen and (min-width: 480px){
-.container-studio {
-    width: 480px;
-    margin-right: auto;
-    margin-left: 15px;
-}
-}
- 
-    
-  
+
 .comanda{
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
@@ -83,7 +76,7 @@ border-radius: 0px 0px 4px 4px;
   @media screen and (min-width: 768px) {
     .container-studio {
       width: 768px;
-      margin-left: 0;
+    
     }
   }
   
@@ -96,10 +89,10 @@ margin-left: auto;
 margin-right: auto;
 
      }
-     .feat-es{
-       display: flex;
-       flex-wrap: nowrap;
-     }
+      .feat-es{
+          display: flex;
+         flex-wrap: nowrap;
+ }
     }
  .social-list{
   display: flex;
@@ -149,22 +142,18 @@ background-color: $accent-color;
   
     
     @media screen and (min-width: 768px) {
-      .photo-studio {
-        width: 354px;
+        .photo-studio {
+          width: 354px;
       }
-    }
-    
+     }
+
     @media screen and (min-width: 1200px) {
-      .photo-studio {
-    width: 270px;
+        .photo-studio {
+      width: 270px;
       }
-    }
+      }
    
     
-    
-
-
-
 .feat-es{
 
   @media screen and (min-width: 480px) {
@@ -202,15 +191,12 @@ background-color: $accent-color;
     }
   }
 
-
-
-
 @media screen and (max-width: 767px) {
   .class-title {
     max-width: 480px;
     color: $title-text-color;
 margin-top: 0;
-margin-bottom: 50px;
+margin-bottom: 30pxpx;
 font-weight: 700;
 font-size: 28px;
 line-height: 1.17;
@@ -223,7 +209,7 @@ text-align: center;
     max-width: 768px;
     color: $title-text-color;
 margin-top: 0;
-margin-bottom: 50px;
+margin-bottom: 30px;
 font-weight: 700;
 font-size: 28px;
 line-height: 1.17;
@@ -237,7 +223,7 @@ max-width: 1200px;
 color: $title-text-color;
 margin-top: 0;
 margin-bottom: auto;
-margin-bottom: 60px;
+margin-bottom: 50px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;

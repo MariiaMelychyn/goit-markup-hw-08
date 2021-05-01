@@ -3,7 +3,7 @@
   display: inline-flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: -15px;
+
   padding: 0;
   justify-content: space-around;
 }
@@ -95,4 +95,7 @@
       margin: 15px;
   }
   }
- 
+ .clients{
+  padding-top: 60px;
+  padding-bottom: 60px;
+ }

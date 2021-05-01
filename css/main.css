@@ -24,6 +24,27 @@ img {
   height: auto;
 }
 
+.container-studio {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.class-title {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-clientu {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,11 +83,6 @@ img {
     margin-left: 0;
     margin-right: 15px;
   }
-}
-
-.container-studio {
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .features__title {
@@ -458,7 +474,6 @@ img {
   display: inline-flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: -15px;
   padding: 0;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -568,6 +583,11 @@ img {
         flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
+}
+
+.clients {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer {
@@ -2713,6 +2733,11 @@ section {
   padding-bottom: 94px;
 }
 
+.section-port {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .portfolio-photo {
   margin-top: 0;
   margin-top: 0;
@@ -2817,7 +2842,7 @@ p {
   background: #FFFFFF;
   margin-top: 0;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-top: 30px;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -2858,7 +2883,7 @@ p {
 
 @media screen and (min-width: 480px) {
   .portfolio-container .button-portfolio {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2877,7 +2902,7 @@ p {
     max-width: 480px;
   }
   .portfolio-container .button-portfolio {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 }
 
@@ -2977,19 +3002,14 @@ p {
   .section-comanda {
     padding-left: 15px;
   }
+  .feat-es {
+    margin: -15px;
+  }
 }
 
 .container-studio {
   margin-right: auto;
   margin-left: auto;
-}
-
-@media screen and (min-width: 480px) {
-  .container-studio {
-    width: 480px;
-    margin-right: auto;
-    margin-left: 15px;
-  }
 }
 
 .comanda {
@@ -3041,7 +3061,6 @@ p {
 @media screen and (min-width: 768px) {
   .container-studio {
     width: 768px;
-    margin-left: 0;
   }
 }
 
@@ -3168,7 +3187,7 @@ p {
     max-width: 480px;
     color: #212121;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30pxpx;
     font-weight: 700;
     font-size: 28px;
     line-height: 1.17;
@@ -3181,7 +3200,7 @@ p {
     max-width: 768px;
     color: #212121;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: 700;
     font-size: 28px;
     line-height: 1.17;
@@ -3195,7 +3214,7 @@ p {
     color: #212121;
     margin-top: 0;
     margin-bottom: auto;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -3439,32 +3458,17 @@ p {
   .section-comanda {
     padding-bottom: 60px;
   }
-  .class-title {
-    margin-bottom: 30px;
-  }
-  .clients {
-    padding-top: 60px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .class-title {
-    margin-bottom: 60px;
-  }
 }
 
 @media screen and (min-width: 480px) {
   .container-clientu {
-    margin-right: auto;
-    margin-left: 10px;
+    width: 480px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container-clientu {
     width: 768px;
-    margin-right: auto;
-    margin-left: 15px;
   }
 }
 
@@ -3475,9 +3479,6 @@ p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-  }
-  .regular-customers {
-    margin: 15px;
   }
 }
 /*# sourceMappingURL=main.css.map */
