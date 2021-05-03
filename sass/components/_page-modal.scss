@@ -313,7 +313,7 @@ margin-left: 40px;
   }
   textarea{
    resize: none;
-   width: 448px;
+  max-width: 448px;
    height: 120px;
     margin-left: 40px;
    border: 1px solid rgba(33, 33, 33, 0.2);
@@ -360,23 +360,28 @@ cursor: pointer;
   .modal{
     width: 450px;
     height: 609px;
-    .windows-input {
-     width: 380px;
-    }
-    .name-one{
-      width: 380px;
-    }
+    
+    
     .chek{
 font-size: 12px;
 line-height: 1.17;
     }
-    .text{
-      margin-right: 40px;
-      margin-left: 40px;
-    }
+    
     .backdrop.is-hidden{
       top: 60%;
     }
+  }
+}
+@media screen and (max-width: 1600px){
+  .name-one{
+    width: 380px;
+  }
+  .windows-input {
+    width: 380px;
+   }
+   .text{
+    margin-right: 40px;
+    margin-left: 40px;
   }
 }
 

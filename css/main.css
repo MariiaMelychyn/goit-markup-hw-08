@@ -2457,7 +2457,7 @@ placeholder {
 
 textarea {
   resize: none;
-  width: 448px;
+  max-width: 448px;
   height: 120px;
   margin-left: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -2510,22 +2510,25 @@ textarea:hover, textarea:focus {
     width: 450px;
     height: 609px;
   }
-  .modal .windows-input {
-    width: 380px;
-  }
-  .modal .name-one {
-    width: 380px;
-  }
   .modal .chek {
     font-size: 12px;
     line-height: 1.17;
   }
-  .modal .text {
-    margin-right: 40px;
-    margin-left: 40px;
-  }
   .modal .backdrop.is-hidden {
     top: 60%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .name-one {
+    width: 380px;
+  }
+  .windows-input {
+    width: 380px;
+  }
+  .text {
+    margin-right: 40px;
+    margin-left: 40px;
   }
 }
 
@@ -2571,9 +2574,6 @@ textarea:hover, textarea:focus {
     font-size: 16px;
     line-height: 1.87;
   }
-  .button-port {
-    margin-top: 10px;
-  }
   .portfolio-photo {
     width: 450px;
   }
@@ -2584,9 +2584,6 @@ textarea:hover, textarea:focus {
   }
   .portfolio__element {
     max-width: 480px;
-  }
-  .button-portfolio__portfolio {
-    margin-right: 8px;
   }
 }
 
@@ -2897,6 +2894,11 @@ p {
   }
 }
 
+.button-portfolio__portfolio {
+  margin-right: 8px;
+  margin-bottom: 15px;
+}
+
 .portfolio-container {
   padding-left: 15px;
   padding-right: 15px;
@@ -2986,9 +2988,6 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-  .button-portfolio__portfolio {
-    margin-right: 8px;
   }
 }
 

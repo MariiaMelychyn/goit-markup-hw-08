@@ -25,9 +25,7 @@
         line-height: 1.87;
      }
      
-     .button-port{
-      margin-top: 10px;
-      }
+     
      .portfolio-photo{
      width: 450px;
      }
@@ -40,11 +38,9 @@
         max-width: 480px;
   
       }
-      .button-portfolio__portfolio{
-        margin-right: 8px;
-      }
+      
     }
-
+   
     @media screen and (max-width: 767px){
       .button-portfolio {
         display: flex;
@@ -299,4 +295,8 @@ overflow: hidden;
     margin-bottom: 40px;
     display: flex;
 }
+}
+.button-portfolio__portfolio{
+  margin-right: 8px;
+  margin-bottom: 15px;
 }
